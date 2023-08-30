@@ -1,0 +1,61 @@
+/* DESK 1366px */
+
+footer{
+    background-image: url(/assets/image/astro_background.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 600px;
+    height: 100%;
+}
+
+.footer_nav{
+    margin: 150px 80px;
+    display: flex;
+}
+
+.footer_nav div{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.footer_contact{
+    margin-top: 35px;
+    text-align: center;
+}
+
+.footer_contact cite{
+    margin: 10px 0;
+}
+
+.footer_contact nav{
+    margin-top: 10px;
+}
+
+.footer_copyright {
+    margin-left: 80px;
+}
+
+/* MOBILE 680px */
+
+@media (max-width: 680px) {
+    footer{
+        background-size: 100vw;
+        height: 680px;
+    }
+    .footer_nav{
+        margin: 35px auto;
+        margin-left: 40px;
+    }
+    .footer_contact{
+        margin-top: 0;
+    }
+    .footer_copyright {
+        margin: 0;
+        padding: 0px 100px;
+    }
+    .footer_copyright div span i{
+        font-size: 11px;
+    }
+
+}

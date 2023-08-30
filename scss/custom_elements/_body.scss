@@ -1,0 +1,16 @@
+body {
+    max-width: 1366px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    background-color: #ecf5ff;
+}
+
+/* MOBILE 680px */
+
+@media (max-width: 680px) {
+    body{
+        max-width: 680px;
+    }
+}

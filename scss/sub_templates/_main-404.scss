@@ -1,0 +1,28 @@
+/* DESK 1366px */
+
+.main_404{
+    background-image: url(/assets/image/blue-stroke_background.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 600px;
+}
+.main_404_section {
+    padding: 330px 103px;
+    width: 60%;
+}
+
+.main_404_section div p {
+    margin-top: 50px;
+}
+
+/* MOBILE 680px */
+
+@media (max-width: 680px) {
+    .main_404{
+        background-image: none;
+    }
+    .main_404_section{
+        width: auto;
+        padding: 100px;
+    }
+}

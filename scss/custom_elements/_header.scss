@@ -1,0 +1,38 @@
+/* DESK 1366px */
+
+header{
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+
+.header_menu{
+    padding: 10px 40px;
+    background-color: rgba($color: #fff, $alpha: 0.9);
+    display: block;
+}
+
+.header_menu__list{
+    align-items: center;
+    display: flex;
+    justify-content: right;
+    flex-wrap: nowrap;
+}
+
+.header_menu__list li {
+    margin-left: 20px;
+}
+
+.header_menu__list li:first-child {
+    margin-right: auto;
+    color: black;
+}
+
+/* MOBILE 680px */
+
+@media (max-width: 680px) {
+    .header_menu {
+        display: none;
+    }
+}
+
