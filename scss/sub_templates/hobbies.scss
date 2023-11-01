@@ -62,4 +62,33 @@
 
 @media (max-width: 680px) {
 
+    picture img{
+        display: none;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+
+    .main_hobbies{
+        background-position: top;
+        background-size: 2000px;
+    }
+
+    .main_home_section__habitat{
+        margin: 0;
+        padding: 0px 20px;
+    }
+
+    .main_home_section__habitat article div{
+        padding: 0;
+    }
+
+    .main_home_section__central{
+        margin: auto 9px;
+        padding: 20px 0;
+    }
+    .main_home_section__central article div{
+        padding: 0px 15px;
+    }
 }

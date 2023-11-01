@@ -173,6 +173,32 @@ header {
 }
 
 /* MOBILE 680px */
+@media (max-width: 680px) {
+  picture img {
+    display: none;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  .main_hobbies {
+    background-position: top;
+    background-size: 2000px;
+  }
+  .main_home_section__habitat {
+    margin: 0;
+    padding: 0px 20px;
+  }
+  .main_home_section__habitat article div {
+    padding: 0;
+  }
+  .main_home_section__central {
+    margin: auto 9px;
+    padding: 20px 0;
+  }
+  .main_home_section__central article div {
+    padding: 0px 15px;
+  }
+}
 /* DESK 1366px */
 footer {
   background-image: url(/assets/image/astro_background.png);
@@ -213,12 +239,21 @@ footer {
 /* MOBILE 680px */
 @media (max-width: 680px) {
   footer {
-    background-size: 100vw;
-    height: 680px;
+    background-image: none;
   }
   .footer_nav {
+    display: block;
     margin: 35px auto;
     margin-left: 40px;
+  }
+  .footer_nav div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
   }
   .footer_contact {
     margin-top: 0;
