@@ -41,6 +41,10 @@ i {
   font-size: 12px;
 }
 
+h1 {
+  color: red;
+}
+
 h1:hover {
   color: #FFE000;
 }
@@ -49,17 +53,45 @@ h2:hover {
   color: rgb(253, 135, 0);
 }
 
+h3 {
+  color: lightseagreen;
+}
+
 h3:hover {
-  color: aqua;
+  color: rgb(245, 6, 245);
+}
+
+h4 {
+  color: #FFE000;
 }
 
 nav li a:hover {
-  color: #E31C57;
+  color: rgb(245, 6, 245);
 }
 
 a {
   text-decoration: none;
+  color: white;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+header {
+  color: white;
+  background-color: black;
+}
+
+.header_menu {
+  background-color: black;
+}
+
+.main_section__central {
+  background-color: gold;
   color: black;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.5);
 }
 
 /* Content */
@@ -72,7 +104,6 @@ header {
 
 .header_menu {
   padding: 10px 40px;
-  background-color: rgba(255, 255, 255, 0.9);
   display: block;
 }
 
@@ -89,7 +120,6 @@ header {
 
 .header_menu__list li:first-child {
   margin-right: auto;
-  color: black;
 }
 
 /* MOBILE 680px */
@@ -105,39 +135,18 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0px auto;
-  background-color: #ecf5ff;
 }
 
-body {
-  color: white;
-  background-color: black;
-}
-
-header {
-  color: white;
-  background-color: black;
-}
-
-a {
-  color: white;
-}
-
-h1 {
-  color: white;
-}
-
-.header_menu {
-  padding: 10px 40px;
-  background-color: black;
-  display: block;
-}
-
-.main_home {
+main {
   background-image: url(/assets/image/banner_object_3d.png);
   background-repeat: no-repeat;
   background-position: top right;
   background-size: 600px;
   background-attachment: fixed;
+}
+
+cite {
+  margin-bottom: 15px;
 }
 
 .main_section__principal {
@@ -155,12 +164,9 @@ h1 {
 
 .main_section__central {
   padding: 80px;
-  background-color: gold;
   margin: auto 60px;
-  color: black;
   border-radius: 15px;
   text-align: center;
-  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.5);
 }
 
 .main_section__central article {
@@ -195,9 +201,10 @@ h1 {
   h2 {
     font-size: 40px;
   }
-  .main_home {
+  main {
+    background-image: url(/assets/image/astro.png);
     background-position: bottom;
-    background-size: auto;
+    background-size: 480px;
   }
   .main_section__principal {
     padding: 140px 50px;
@@ -209,7 +216,7 @@ h1 {
     width: 240px;
   }
   .main_section__principal div {
-    width: auto;
+    width: 290px;
     margin-bottom: 20px;
   }
   .main_section__central {
@@ -288,7 +295,8 @@ footer {
   }
   .footer_copyright {
     margin: 0;
-    padding: 0px 100px;
+    padding: 0px 50px;
+    margin-bottom: 50px;
   }
   .footer_copyright div span i {
     font-size: 11px;

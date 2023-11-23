@@ -1,20 +1,56 @@
+h1{
+    color: brown;
+}
+
 h1:hover{
-    color: #FFE000;
+    color: cyan;
+}
+
+h2{
+    color: yellow;
 }
 
 h2:hover {
     color: rgb(253, 135, 0);
 }
 
+h3{
+    color: fuchsia;
+}
+
 h3:hover {
-    color: aqua;
+    color: rgb(30, 255, 0);
 }
 
 nav li a:hover {
-    color: #E31C57;
+    color: #FFE000;
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+li a{
+    color: hotpink;
+}
+
+body {
+    background-color: darkviolet;
+    color: white;
+}
+
+.header_menu{
+    background-color: black;
+}
+
+.main_section__places{
+    background-color: darkmagenta;
+    box-shadow: 0px -2px 20px 20px rgba(68, 88, 144, 0.5);
+}
+
+.main_section__entertainment{
+    background-color: black;
+    color: white;
+    box-shadow: 0px -2px 20px 20px rgba(68, 88, 144, 0.5);
 }

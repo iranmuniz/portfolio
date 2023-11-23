@@ -26,3 +26,21 @@ a {
 span i a {
     color: red;
 }
+
+body {
+    background-color: #ecf5ff;
+}
+
+.header_menu{
+    background-color: rgba($color: #fff, $alpha: 0.9);
+}
+
+.header_menu__list li:first-child {
+    color: black;
+}
+
+.main_section__central{
+    background-color: black;
+    color: white;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.5);
+}

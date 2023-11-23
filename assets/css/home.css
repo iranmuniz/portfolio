@@ -70,6 +70,24 @@ span i a {
   color: red;
 }
 
+body {
+  background-color: #ecf5ff;
+}
+
+.header_menu {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.header_menu__list li:first-child {
+  color: black;
+}
+
+.main_section__central {
+  background-color: black;
+  color: white;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.5);
+}
+
 /* Content */
 /* DESK 1366px */
 header {
@@ -80,7 +98,6 @@ header {
 
 .header_menu {
   padding: 10px 40px;
-  background-color: rgba(255, 255, 255, 0.9);
   display: block;
 }
 
@@ -97,7 +114,6 @@ header {
 
 .header_menu__list li:first-child {
   margin-right: auto;
-  color: black;
 }
 
 /* MOBILE 680px */
@@ -113,7 +129,6 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0px auto;
-  background-color: #ecf5ff;
 }
 
 main {
@@ -143,12 +158,9 @@ main {
 
 .main_section__central {
   padding: 80px;
-  background-color: black;
   margin: auto 60px;
-  color: white;
   border-radius: 15px;
   text-align: center;
-  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.5);
 }
 
 .main_section__central article {
@@ -184,8 +196,9 @@ main {
     font-size: 40px;
   }
   main {
+    background-image: url(/assets/image/astro.png);
     background-position: bottom;
-    background-size: auto;
+    background-size: 480px;
   }
   .main_section__principal {
     padding: 140px 50px;
@@ -276,7 +289,8 @@ footer {
   }
   .footer_copyright {
     margin: 0;
-    padding: 0px 100px;
+    padding: 0px 50px;
+    margin-bottom: 50px;
   }
   .footer_copyright div span i {
     font-size: 11px;

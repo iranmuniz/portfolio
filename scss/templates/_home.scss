@@ -6,9 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px auto;
-    background-color: #ecf5ff;
 }
-
 main{
     background-image: url(/assets/image/banner_3d.png);
     background-repeat: no-repeat;
@@ -32,12 +30,9 @@ main{
 }
 .main_section__central{
     padding: 80px;
-    background-color: black;
     margin: auto 60px;
-    color: white;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.5);
 }
 .main_section__central article{
     display: flex;
@@ -74,8 +69,9 @@ main{
         font-size: 40px;
     }
     main{
+        background-image: url(/assets/image/astro.png);
         background-position: bottom;
-        background-size: auto;
+        background-size: 480px;
     }
     .main_section__principal{
         padding: 140px 50px;

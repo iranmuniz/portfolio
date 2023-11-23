@@ -6,40 +6,18 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px auto;
-    background-color: #ecf5ff;
 }
-
-body{
-    color: white;
-    background-color: black;
-}
-
-header{
-    color: white;
-    background-color: black;
-}
-
-a{
-    color: white;
-}
-
-h1{
-    color: white;
-}
-
-.header_menu {
-    padding: 10px 40px;
-    background-color: black;
-    display: block;
-}
-
-.main_home{
+main{
     background-image: url(/assets/image/banner_object_3d.png);
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 600px;
     background-attachment: fixed;
 }
+cite{
+    margin-bottom: 15px;
+}
+
 .main_section__principal {
     display: flex;
     justify-content: space-around;
@@ -54,12 +32,9 @@ h1{
 
 .main_section__central{
     padding: 80px;
-    background-color: gold;
     margin: auto 60px;
-    color: black;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.5);
 }
 .main_section__central article{
     display: flex;
@@ -91,12 +66,14 @@ h1{
     body{
         max-width: 680px;
     }
+
     h2{
         font-size: 40px;
     }
-    .main_home{
+    main{
+        background-image: url(/assets/image/astro.png);
         background-position: bottom;
-        background-size: auto;
+        background-size: 480px;
     }
     .main_section__principal{
         padding: 140px 50px;
@@ -109,7 +86,7 @@ h1{
         width: 240px;
     }
     .main_section__principal div{
-        width: auto;
+        width: 290px;
         margin-bottom: 20px;
     }
 
@@ -130,4 +107,3 @@ h1{
         width: 290px;
     }
 }
-

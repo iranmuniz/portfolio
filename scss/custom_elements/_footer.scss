@@ -41,8 +41,6 @@ footer{
 
 @media (max-width: 680px) {
     footer{
-        // background-size: 100vw;
-        // height: 680px;
         background-image: none;
     }
     .footer_nav{
@@ -64,7 +62,8 @@ footer{
     }
     .footer_copyright {
         margin: 0;
-        padding: 0px 100px;
+        padding: 0px 50px;
+        margin-bottom: 50px;
     }
     .footer_copyright div span i{
         font-size: 11px;

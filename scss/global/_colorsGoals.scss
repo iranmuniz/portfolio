@@ -1,3 +1,7 @@
+h1{
+    color: red;
+}
+
 h1:hover{
     color: #FFE000;
 }
@@ -6,15 +10,43 @@ h2:hover {
     color: rgb(253, 135, 0);
 }
 
+h3{
+    color: lightseagreen;
+}
+
 h3:hover {
-    color: aqua;
+    color: rgb(245, 6, 245);
+}
+
+h4{
+    color: #FFE000;
 }
 
 nav li a:hover {
-    color: #E31C57;
+    color: rgb(245, 6, 245);
 }
 
 a {
     text-decoration: none;
+    color: white;
+}
+
+body{
+    color: white;
+    background-color: black;
+}
+
+header{
+    color: white;
+    background-color: black;
+}
+
+.header_menu {
+    background-color: black;
+}
+
+.main_section__central{
+    background-color: gold;
     color: black;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.5);
 }
