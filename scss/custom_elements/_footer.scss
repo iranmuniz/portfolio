@@ -1,7 +1,7 @@
 /* DESK 1366px */
 
 footer{
-    background-image: url(/assets/image/astro_background.png);
+    background-image: url(/assets/image/banner_rodape.png);
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 600px;
@@ -9,18 +9,18 @@ footer{
 }
 
 .footer_nav{
+    align-items: center;
     margin: 150px 80px;
     display: flex;
+    justify-content: space-around;
 }
 
 .footer_nav div{
     display: flex;
     flex-direction: column;
-    margin-right: 40px;
 }
 
 .footer_contact{
-    margin-top: 35px;
     text-align: center;
 }
 
@@ -33,6 +33,7 @@ footer{
 }
 
 .footer_copyright {
+    margin-top: 300px;
     margin-left: 80px;
 }
 

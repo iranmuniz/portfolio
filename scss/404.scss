@@ -1,9 +1,8 @@
 /* Global */
 @import 'global/fonts';
-@import 'global/colors';
+@import 'global/colors404';
 
 /* Content */
-@import 'custom_elements/body';
 @import 'custom_elements/header';
-@import 'sub_templates/404';
+@import 'templates/404';
 @import 'custom_elements/footer';  

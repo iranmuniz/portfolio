@@ -5,26 +5,14 @@ h1 {
   font-size: 40px;
 }
 
-h1:hover {
-  color: #FFE000;
-}
-
 h2 {
   font-family: "Chakra Petch", sans-serif;
   font-size: 70px;
 }
 
-h2:hover {
-  color: rgb(253, 135, 0);
-}
-
 h3 {
   font-family: "Chakra Petch", sans-serif;
   font-size: 50px;
-}
-
-h3:hover {
-  color: aqua;
 }
 
 h4 {
@@ -40,15 +28,6 @@ nav li {
   font-family: "Chakra Petch", sans-serif;
   font-size: 20px;
   list-style: none;
-}
-
-nav li a:hover {
-  color: #E31C57;
-}
-
-a {
-  text-decoration: none;
-  color: black;
 }
 
 p {

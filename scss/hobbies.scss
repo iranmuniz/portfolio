@@ -1,9 +1,8 @@
 /* Global */
 @import 'global/fonts';
-@import 'global/colors';
+@import 'global/colorsHobbies';
 
 /* Content */
-@import 'custom_elements/body';
 @import 'custom_elements/header';
-@import 'sub_templates/hobbies';
+@import 'templates/hobbies';
 @import 'custom_elements/footer';  

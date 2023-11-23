@@ -6,26 +6,14 @@ h1 {
   font-size: 40px;
 }
 
-h1:hover {
-  color: #FFE000;
-}
-
 h2 {
   font-family: "Chakra Petch", sans-serif;
   font-size: 70px;
 }
 
-h2:hover {
-  color: rgb(253, 135, 0);
-}
-
 h3 {
   font-family: "Chakra Petch", sans-serif;
   font-size: 50px;
-}
-
-h3:hover {
-  color: aqua;
 }
 
 h4 {
@@ -43,15 +31,6 @@ nav li {
   list-style: none;
 }
 
-nav li a:hover {
-  color: #E31C57;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
 p {
   font-family: "Space Grotesk", sans-serif;
   margin-bottom: 15px;
@@ -62,22 +41,36 @@ i {
   font-size: 12px;
 }
 
-/* Content */
-body {
-  max-width: 1366px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  margin: 0px auto;
-  background-color: #ecf5ff;
+h1 {
+  color: red;
 }
 
-/* MOBILE 680px */
-@media (max-width: 680px) {
-  body {
-    max-width: 680px;
-  }
+h1:hover {
+  color: #FFE000;
 }
+
+h2:hover {
+  color: rgb(253, 135, 0);
+}
+
+h3:hover {
+  color: aqua;
+}
+
+h4 {
+  color: red;
+}
+
+nav li a:hover {
+  color: #E31C57;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Content */
 /* DESK 1366px */
 header {
   position: absolute;
@@ -114,8 +107,17 @@ header {
   }
 }
 /* DESK 1366px */
+body {
+  max-width: 1366px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  background-color: snow;
+}
+
 .main_404 {
-  background-image: url(/assets/image/blue-stroke_background.png);
+  background-image: url(/assets/image/anime.png);
   background-repeat: no-repeat;
   background-position: top right;
   background-size: 600px;
@@ -132,6 +134,9 @@ header {
 
 /* MOBILE 680px */
 @media (max-width: 680px) {
+  body {
+    max-width: 680px;
+  }
   .main_404 {
     background-image: none;
   }
@@ -142,7 +147,7 @@ header {
 }
 /* DESK 1366px */
 footer {
-  background-image: url(/assets/image/astro_background.png);
+  background-image: url(/assets/image/banner_rodape.png);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 600px;
@@ -150,18 +155,18 @@ footer {
 }
 
 .footer_nav {
+  align-items: center;
   margin: 150px 80px;
   display: flex;
+  justify-content: space-around;
 }
 
 .footer_nav div {
   display: flex;
   flex-direction: column;
-  margin-right: 40px;
 }
 
 .footer_contact {
-  margin-top: 35px;
   text-align: center;
 }
 
@@ -174,6 +179,7 @@ footer {
 }
 
 .footer_copyright {
+  margin-top: 300px;
   margin-left: 80px;
 }
 
