@@ -1,3 +1,7 @@
+h1{
+    color: white;
+}
+
 h1:hover{
     color: #FFE000;
 }
@@ -10,11 +14,44 @@ h3:hover {
     color: aqua;
 }
 
+h4{
+    color: red;
+}
+
 nav li a:hover {
     color: #E31C57;
 }
 
 a {
     text-decoration: none;
+    color: white;
+}
+span i a {
+    color: red;
+}
+
+body {
+    background-color: black;
+}
+
+header{
+    position: fixed !important;
+}
+
+footer{
+    background-color: linen;
+}
+
+.header_menu{
+    background-color: black;
+    color: white;
+}
+.header_menu__list li:first-child {
     color: black;
+}
+
+.main_section__central{
+    background-color: #E54857;
+    color: white;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.5);
 }
