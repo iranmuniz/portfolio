@@ -316,7 +316,7 @@ cite {
     background-attachment: scroll;
   }
   .main_section__principal {
-    padding: 300px 15vw;
+    padding: 300px 50px;
     display: block;
     text-align: center;
   }
@@ -324,8 +324,9 @@ cite {
     width: 240px;
   }
   .main_section__principal div {
-    width: 290px;
+    width: auto;
     margin-bottom: 20px;
+    margin-right: 0;
   }
   .main_section__central {
     margin: auto 10px;
