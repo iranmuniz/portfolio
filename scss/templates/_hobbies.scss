@@ -1,3 +1,61 @@
+/* COLORS */
+h1{
+    color: brown;
+}
+
+h1:hover{
+    color: cyan;
+}
+
+h2{
+    color: yellow;
+}
+
+h2:hover {
+    color: rgb(253, 135, 0);
+}
+
+h3{
+    color: fuchsia;
+}
+
+h3:hover {
+    color: rgb(30, 255, 0);
+}
+
+nav li a:hover {
+    color: #FFE000;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li a{
+    color: hotpink;
+}
+
+body {
+    background-color: darkviolet;
+    color: white;
+}
+
+.header_menu{
+    background-color: black;
+}
+
+.main_section__places{
+    background-color: darkmagenta;
+    box-shadow: 0px -2px 20px 20px rgba(68, 88, 144, 0.5);
+}
+
+.main_section__entertainment{
+    background-color: black;
+    color: white;
+    box-shadow: 0px -2px 20px 20px rgba(68, 88, 144, 0.5);
+}
+
 /* DESK 1366px */
 
 body {
@@ -79,9 +137,10 @@ main{
         max-width: 680px;
     }
     main{
-        background-image: url(/assets/image/astro.png);
-        background-position: bottom;
-        background-size: 480px;
+        background-image: url(/assets/image/background_chili.png);
+        background-size: 280px;
+        background-position: top right;
+        background-attachment: scroll;
     }
 
     h2{
@@ -96,9 +155,8 @@ main{
         font-size: 30px;
     }
 
-    .main_section__principal{
-        padding: 96px 40px;
-        margin-bottom: 450px;
+    .main_section__principal {
+        padding: 280px 8vw;
     }
 
     .main_section__principal div{

@@ -41,63 +41,9 @@ i {
   font-size: 12px;
 }
 
-h1 {
-  color: red;
-}
-
-h1:hover {
-  color: #FFE000;
-}
-
-h2:hover {
-  color: rgb(253, 135, 0);
-}
-
-h3 {
-  color: lightseagreen;
-}
-
-h3:hover {
-  color: rgb(245, 6, 245);
-}
-
-h4 {
-  color: #FFE000;
-}
-
-nav li a:hover {
-  color: rgb(245, 6, 245);
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-body {
-  color: white;
-  background-color: black;
-}
-
-header {
-  color: white;
-  background-color: black;
-}
-
-.header_menu {
-  background-color: black;
-}
-
-.main_section__central {
-  background-color: gold;
-  color: black;
-  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.5);
-}
-
 /* Content */
 /* DESK 1366px */
 header {
-  position: absolute;
   width: 100%;
   z-index: 999;
 }
@@ -195,18 +141,12 @@ header {
   transform: translate(-22%, -14%);
 }
 
-.header_copyright {
-  color: white;
-  margin: 90px 50px;
-  text-align: center;
+.header_desktop {
+  position: absolute;
 }
 
-.header_copyright span i {
-  font-size: 15px;
-}
-
-.header_copyright span i a {
-  color: white;
+.header_mobile {
+  position: fixed;
 }
 
 .header_menu {
@@ -236,9 +176,6 @@ header {
   }
 }
 @media (max-width: 680px) {
-  header {
-    display: none;
-  }
   .header_desktop {
     display: none;
   }
@@ -246,6 +183,60 @@ header {
     padding: 6px 0;
   }
 }
+/* COLORS */
+h1 {
+  color: red;
+}
+
+h1:hover {
+  color: #FFE000;
+}
+
+h2:hover {
+  color: rgb(253, 135, 0);
+}
+
+h3 {
+  color: lightseagreen;
+}
+
+h3:hover {
+  color: rgb(245, 6, 245);
+}
+
+h4 {
+  color: #FFE000;
+}
+
+nav li a:hover {
+  color: rgb(245, 6, 245);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+header {
+  color: white;
+  background-color: black;
+}
+
+.header_menu {
+  background-color: black;
+}
+
+.main_section__central {
+  background-color: gold;
+  color: black;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.5);
+}
+
 /* DESK 1366px */
 body {
   max-width: 1366px;
@@ -320,15 +311,14 @@ cite {
     font-size: 40px;
   }
   main {
-    background-image: url(/assets/image/astro.png);
-    background-position: bottom;
-    background-size: 480px;
+    background-image: url(/assets/image/background_click.png);
+    background-size: 280px;
+    background-attachment: scroll;
   }
   .main_section__principal {
-    padding: 140px 50px;
+    padding: 300px 15vw;
     display: block;
     text-align: center;
-    margin-bottom: 330px;
   }
   .main_section__principal picture img {
     width: 240px;
@@ -415,9 +405,7 @@ footer {
     margin: 0;
     padding: 0px 50px;
     margin-bottom: 50px;
-  }
-  .footer_copyright div span i {
-    font-size: 11px;
+    text-align: center;
   }
 }
 
