@@ -70,14 +70,13 @@ main{
     }
     main{
         background-image: url(/assets/image/astro.png);
-        background-position: bottom;
-        background-size: 480px;
+        background-size: 280px;
+        background-attachment: scroll;
     }
     .main_section__principal{
-        padding: 140px 50px;
+        padding: 300px 50px;
         display: block;
         text-align: center;
-        margin-bottom: 330px;
     }
 
     .main_section__principal picture img{
