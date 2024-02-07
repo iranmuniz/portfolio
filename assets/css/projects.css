@@ -352,6 +352,9 @@ main {
   .main_section__central article {
     display: block;
   }
+  .main_section__central article div {
+    padding: 15px 20px;
+  }
   .main_article__desk div {
     display: none;
   }
