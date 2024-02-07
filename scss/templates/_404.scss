@@ -40,9 +40,9 @@ body {
 }
 
 .main_404{
-    background-image: url(/assets/image/anime.png);
+    background-image: url(/assets/image/background/sunglass.png);
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position: right;
     background-size: 600px;
 }
 .main_404_section {
@@ -52,6 +52,14 @@ body {
 
 .main_404_section div p {
     margin-top: 50px;
+}
+
+footer{
+    background-image: url(/assets/image/background/anime.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 520px;
+    height: 100%;
 }
 
 /* MOBILE 680px */

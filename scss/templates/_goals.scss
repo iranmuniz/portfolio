@@ -62,9 +62,9 @@ body {
     margin: 0px auto;
 }
 main{
-    background-image: url(/assets/image/banner_object_3d.png);
+    background-image: url(/assets/image/background/project_tennis.png);
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position: right;
     background-size: 600px;
     background-attachment: fixed;
 }
@@ -108,6 +108,14 @@ cite{
     display: block;
 }
 
+footer{
+    background-image: url(/assets/image/background/cyberpunk.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 350px;
+    height: 100%;
+}
+
 /* MOBILE 680px */
 
 @media (min-width: 680px) {
@@ -125,9 +133,9 @@ cite{
         font-size: 40px;
     }
     main{
-        background-image: url(/assets/image/background_click.png);
-        background-size: 280px;
         background-attachment: scroll;
+        background-position: top right;
+        background-size: 350px;
     }
     .main_section__principal{
         padding: 300px 50px;

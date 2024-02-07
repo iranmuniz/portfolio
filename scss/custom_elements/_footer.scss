@@ -1,13 +1,5 @@
 /* DESK 1366px */
 
-footer{
-    background-image: url(/assets/image/banner_rodape.png);
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 600px;
-    height: 100%;
-}
-
 .footer_nav{
     align-items: center;
     margin: 150px 80px;
@@ -41,7 +33,7 @@ footer{
 
 @media (max-width: 680px) {
     footer{
-        background-image: none;
+        background-size: 200px;
     }
     .footer_nav{
         display: block;
@@ -63,7 +55,7 @@ footer{
     .footer_copyright {
         margin: 0;
         padding: 0px 50px;
-        margin-bottom: 50px;
+        margin-bottom: 150px;
         text-align: center;
     }
 }

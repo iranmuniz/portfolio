@@ -1,6 +1,7 @@
 /* Global */
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 h1 {
   font-family: "Chakra Petch", sans-serif;
   font-size: 40px;
@@ -12,8 +13,11 @@ h2 {
 }
 
 h3 {
-  font-family: "Chakra Petch", sans-serif;
-  font-size: 50px;
+  font-size: 30px;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 30px;
 }
 
 h4 {
@@ -214,7 +218,7 @@ nav li a:hover {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #FFE000;
 }
 
 li a {
@@ -222,7 +226,7 @@ li a {
 }
 
 body {
-  background-color: darkviolet;
+  background-color: black;
   color: white;
 }
 
@@ -231,7 +235,8 @@ body {
 }
 
 .main_section__places {
-  background-color: black;
+  background-color: white;
+  color: black;
   box-shadow: 0px -2px 20px 20px rgba(68, 88, 144, 0.5);
 }
 
@@ -255,7 +260,7 @@ cite {
 }
 
 main {
-  background-image: url(/assets/image/heart_bit.png);
+  background-image: url(/assets/image/background/heart_bit.png);
   background-repeat: no-repeat;
   background-size: 730px;
   background-attachment: fixed;
@@ -295,7 +300,11 @@ main {
 }
 
 .main_section__places article div img {
-  width: 440px;
+  width: 280px;
+}
+
+.main_article__mobile {
+  display: none;
 }
 
 .main_section__entertainment {
@@ -316,13 +325,26 @@ main {
   padding: 15px 50px;
 }
 
+footer {
+  background-image: url(/assets/image/background/jesus_skate.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 400px;
+  height: 100%;
+}
+
 /* MOBILE 680px */
+@media (min-width: 680px) {
+  .main_article__mobile div {
+    display: none;
+  }
+}
 @media (max-width: 680px) {
   body {
     max-width: 680px;
   }
   main {
-    background-image: url(/assets/image/background_chili.png);
+    background-image: url(/assets/image/background/heart_bit.png);
     background-size: 280px;
     background-position: top right;
     background-attachment: scroll;
@@ -330,11 +352,11 @@ main {
   h2 {
     font-size: 40px;
   }
-  picture img {
-    display: none;
-  }
   h3 {
-    font-size: 30px;
+    font-size: 20px;
+  }
+  .main_article__desk {
+    display: none;
   }
   .main_section__principal {
     padding: 280px 8vw;
@@ -348,32 +370,33 @@ main {
     padding: 20px 0;
     margin-bottom: 450px;
   }
+  .main_section__central article {
+    display: block;
+  }
+  .main_article__desk div {
+    display: none;
+  }
   .main_section__places article {
     display: block;
   }
   .main_section__places article div {
-    padding: 0px 15px;
-  }
-  .main_section__places img {
-    display: none;
+    padding: 15px 50px;
   }
   .main_section__entertainment {
     margin: auto 9px;
     padding: 20px 0;
   }
+  .main_section__entertainment article {
+    display: block;
+  }
   .main_section__entertainment article div {
-    padding: 0px 15px;
+    padding: 0px 30px;
+  }
+  .main_section__entertainment article picture img {
+    width: 180px;
   }
 }
 /* DESK 1366px */
-footer {
-  background-image: url(/assets/image/banner_rodape.png);
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  background-size: 600px;
-  height: 100%;
-}
-
 .footer_nav {
   align-items: center;
   margin: 150px 80px;
@@ -406,7 +429,7 @@ footer {
 /* MOBILE 680px */
 @media (max-width: 680px) {
   footer {
-    background-image: none;
+    background-size: 200px;
   }
   .footer_nav {
     display: block;
@@ -428,7 +451,7 @@ footer {
   .footer_copyright {
     margin: 0;
     padding: 0px 50px;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
     text-align: center;
   }
 }
