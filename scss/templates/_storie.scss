@@ -3,61 +3,96 @@ h1:hover{
     color: #FFE000;
 }
 
+h2{
+    color: #FFE000;
+}
+
 h2:hover {
     color: rgb(253, 135, 0);
+}
+
+h3{
+    color: deeppink;
 }
 
 h3:hover {
     color: aqua;
 }
 
-nav li a:hover {
-    color: #E31C57;
+h4{
+    color: black;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: indigo;
 }
+a:hover {
+    color: #FFE000;
+}
+
+p{
+    color: white;
+}
+
+cite{
+    color: white;
+}
+
+span{
+    color: white;
+}
+
+.main_storie_section__color-red{
+    background-color: #E31C57;
+}
+
+
 
 /* DESK 1366px */
 
 header{
-    position: fixed !important;
+    display: none;
 }
 
 picture{
     padding: 0 60px;
 }
 
+body{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    height: 100vh;
+}
+
 .main_storie{
     display: flex;
     flex-flow: nowrap;
-    background-image: url(/assets/image/blue-stroke_background.png);
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-size: 600px;
+    background: linear-gradient(90deg, rgb(0 0 0) 0%, rgb(4 4 4) 80%, rgb(0, 212, 255) 100%);
+    align-items: center;
 }
 .main_storie_section {
     display: flex;
 }
 
 .main_storie_section__in-loco{
-    // display: flex;
-    // flex-flow: nowrap;
     margin-left: 110px;
-    margin-top: 230px;
+    margin-top: 170px;
+    margin-right: 620px;
 }
 
 .main_storie_section__in-loco div{
     width: 700px;
 }
 
+.main_storie_section__in-loco__notice{
+    margin-top: 50px;
+}
+
 .main_storie_section__block {
     display: flex;
     flex-flow: nowrap;
-    margin-left: 520px;
-    margin-top: 80px;
     justify-content: center;
     align-items: center;
     text-align: center;

@@ -7,8 +7,12 @@ h1:hover{
     color: #FFE000;
 }
 
-h2:hover {
+h2{
     color: rgb(253, 135, 0);
+}
+
+h2:hover {
+    color: red;
 }
 
 h3{
@@ -40,6 +44,10 @@ body{
 header{
     color: white;
     background-color: black;
+}
+
+i a{
+    color: red;
 }
 
 .header_menu {

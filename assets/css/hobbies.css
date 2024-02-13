@@ -268,8 +268,8 @@ main {
 
 .main_section__principal {
   display: flex;
-  justify-content: space-around;
-  padding: 280px 103px;
+  justify-content: end;
+  padding: 200px 80px;
 }
 
 .main_section__principal div {
@@ -277,7 +277,6 @@ main {
   flex-direction: column;
   text-align: end;
   width: 544px;
-  margin-left: 315px;
 }
 
 .main_section__places {
@@ -368,7 +367,7 @@ footer {
   .main_section__places {
     margin: auto 9px;
     padding: 20px 0;
-    margin-bottom: 450px;
+    margin-bottom: 100px;
   }
   .main_section__central article {
     display: block;
@@ -393,7 +392,7 @@ footer {
     padding: 15px 10px;
   }
   .main_section__entertainment article picture img {
-    width: 180px;
+    width: 130px;
   }
 }
 /* DESK 1366px */
