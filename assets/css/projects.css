@@ -189,19 +189,23 @@ header {
 }
 /* COLORS */
 h1 {
-  color: white;
+  color: #FFE000;
 }
 
 h1:hover {
-  color: #FFE000;
+  color: #c300ff;
 }
 
 h2 {
   color: rgb(253, 135, 0);
 }
 
+h2:hover {
+  color: rgb(51, 255, 0);
+}
+
 h3:hover {
-  color: aqua;
+  color: rgb(51, 255, 0);
 }
 
 h4 {
@@ -209,7 +213,7 @@ h4 {
 }
 
 nav li a:hover {
-  color: #E31C57;
+  color: #c300ff;
 }
 
 a {
@@ -225,8 +229,8 @@ body {
   background-color: black;
 }
 
-footer {
-  background-color: linen;
+button {
+  background-color: green;
 }
 
 .header_menu {
@@ -259,16 +263,6 @@ main {
   background-position: top right;
   background-size: 600px;
   background-attachment: fixed;
-}
-
-.header_menu__button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
-  height: 45px;
-  text-align: center;
-  width: 200px;
 }
 
 .main_section__principal {
