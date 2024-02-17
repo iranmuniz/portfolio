@@ -29,26 +29,25 @@ nav li a:hover {
 
 a {
     text-decoration: none;
-    color: white;
 }
 span i a {
     color: red;
-}
-
-body {
-    background-color: black;
 }
 
 button{
     background-color: green;
 }
 
+button:hover{
+    background-color: rgb(0, 80, 0);
+}
+
 .header_menu{
     background-color: black;
     color: white;
 }
-.header_menu__list li:first-child {
-    color: black;
+.header_menu__list li a {
+    color: white;
 }
 
 .main_section__central{
@@ -66,17 +65,25 @@ body {
     flex-direction: column;
     margin: 0px auto;
 }
+
+.header_menu__button{
+    padding: 10px;
+    border: none;
+    font-family: unset;
+    font-size: 20px;
+}
+
 main{
-    background-image: url(/assets/image/banner_ping_flash.png);
+    background-image: url(/assets/image/banner/macbook.jpg);
     background-repeat: no-repeat;
-    background-position: top right;
-    background-size: 600px;
+    background-size: 1200px;
     background-attachment: fixed;
+    background-position-x: right;
+    background-position-y: -270px;
 }
 
 .main_section__principal {
     display: flex;
-    justify-content: space-around;
     padding: 232px 103px;
 }
 .main_section__principal div {
@@ -110,6 +117,31 @@ main{
 
 .main_article__desk{
     display: block;
+}
+
+.main_article__button{
+    padding: 10px;
+    border: none;
+    font-family: unset;
+}
+
+.main_article__button a{
+    color: white;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 20px;
+    list-style: none;
+}
+
+footer{
+    background-image: url(/assets/image/background/box.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 400px;
+    height: 100%;
+}
+
+.footer_nav__menu li a{
+    color: #df6f14;
 }
 
 /* MOBILE 680px */

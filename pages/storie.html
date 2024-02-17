@@ -57,32 +57,40 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K4MK9D36"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-  <header>
-    <nav class="header_menu">
-      <ul class="header_menu__list">
-        <li>
-          <h1>Iran Muniz.</h1>
-        </li>
-        <li>
-          <a href="/index.html">Início</a>
-        </li>
-        <li>
-          <a href="/404.html">Projetos</a>
-        </li>
-        <li>
-          <a href="https://drive.google.com/file/d/1gs56v-mB6CyXUWy9IWXTsuvyZxDNlQbr/view?usp=sharing" target="_blank">Currículo</a>
-        </li>
-        <li>
-          <a href="/404.html">Objetivos</a>
-        </li>
-        <li>
-          <a href="/404.html">Hobbies</a>
-        </li>
-        <li>
-          <a href="#contact">#Bora Conversar?</a>
-        </li>
-      </ul>
-    </nav>
+  <header class="header_mobile">
+    <div id="menu">
+      <div id="menu-bar" onclick="menuOnClick()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </div>
+      <nav class="nav" id="nav">
+        <ul>
+          <li>
+            <a href="/pages/goals.html">Objetivos</a>
+          </li>
+          <li>
+            <a href="/pages/404.html">Projetos</a>
+          </li>
+          <li>
+            <a href="/pages/storie.html">História</a>
+          </li>
+          <li>
+            <a href="https://drive.google.com/file/d/1gs56v-mB6CyXUWy9IWXTsuvyZxDNlQbr/view?usp=sharing" target="_blank">Currículo</a>
+          </li>
+          <li>
+            <a href="/pages/hobbies.html">Hobbies</a>
+          </li>
+          <li>
+            <a href="/pages/404.html">Galeria</a>
+          </li>
+          <li>
+            <a href="/pages/404.html">Thanks!</a>
+          </li>
+        </ul>
+      </nav> 
+    </div>
+    <div class="menu-bg" id="menu-bg"></div>
   </header>
   <main class="main_storie">
     <section class="main_storie_section">
@@ -98,6 +106,7 @@
             </p>
             <div class="main_storie_section__in-loco__notice">
               <p>ATENÇÃO: As vezes as coisas não ocorrem como planejamos, não é mesmo?</p>
+              <p>No momento está página tem a melhor visualização via Desktop (Beta).</p>
               <span>Segure o SHIFT enquanto scrollar a tela se não estiver funcionando essa função automaticamente. Peço desculpas pelo transtorno. ¯\_(ツ)_/¯</span>
             </div>
         </div>
@@ -215,14 +224,20 @@
       <div class="main_storie_section__block">
         <div class="footer_nav">
           <div>
-            <h4>Sobre mim</h4>
+            <h4>Menus</h4>
             <nav>
               <ul>
+                <li>
+                  <a href="/index.html">Início</a>
+                </li>
                 <li>
                   <a href="/pages/goals.html">Objetivos</a>
                 </li>
                 <li>
                   <a href="/pages/404.html">Projetos</a>
+                </li>
+                <li>
+                  <a href="/pages/storie.html">História</a>
                 </li>
                 <li>
                   <a href="https://drive.google.com/file/d/1gs56v-mB6CyXUWy9IWXTsuvyZxDNlQbr/view?usp=sharing" target="_blank">Currículo</a>
@@ -231,10 +246,10 @@
                   <a href="/pages/hobbies.html">Hobbies</a>
                 </li>
                 <li>
-                  <a href="/pages/404.html">História</a>
+                  <a href="/pages/404.html">Galeria</a>
                 </li>
                 <li>
-                  <a href="/pages/404.html">Agradecimentos</a>
+                  <a href="/pages/404.html">Thanks!</a>
                 </li>
               </ul>
             </nav>
