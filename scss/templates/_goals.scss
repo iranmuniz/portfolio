@@ -8,7 +8,7 @@ h1:hover{
 }
 
 h2{
-    color: rgb(253, 135, 0);
+    color: #1D469E;
 }
 
 h2:hover {
@@ -47,7 +47,7 @@ header{
 }
 
 i a{
-    color: red;
+    color: #FFE000;
 }
 
 .header_menu {
@@ -75,6 +75,7 @@ main{
     background-position: right;
     background-size: 600px;
     background-attachment: fixed;
+    background-position-y: 60px;
 }
 cite{
     margin-bottom: 15px;
@@ -136,9 +137,11 @@ footer{
     body{
         max-width: 680px;
     }
-
     h2{
         font-size: 40px;
+    }
+    h3{
+        font-size: 20px;
     }
     main{
         background-attachment: scroll;
@@ -146,7 +149,7 @@ footer{
         background-size: 350px;
     }
     .main_section__principal{
-        padding: 300px 50px;
+        padding: 400px 20px 150px;
         display: block;
         text-align: center;
     }
@@ -179,5 +182,8 @@ footer{
 
     .main_section__central article div img{
         width: 290px;
+    }
+    footer{
+        background-size: auto;
     }
 }

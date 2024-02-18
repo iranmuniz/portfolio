@@ -120,9 +120,11 @@ footer{
     body{
         max-width: 680px;
     }
-
     h2{
         font-size: 40px;
+    }
+    h3{
+        font-size: 20px;
     }
     main{
         background-image: url(/assets/image/background/astro.png);
@@ -162,5 +164,8 @@ footer{
 
     .main_section__central article div img{
         width: 290px;
+    }
+    footer{
+        background-size: 200px;
     }
 }

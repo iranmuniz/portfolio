@@ -45,6 +45,13 @@ i {
   font-size: 12px;
 }
 
+button {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+}
+
 /* Content */
 /* DESK 1366px */
 header {
@@ -197,7 +204,7 @@ h1:hover {
 }
 
 h2 {
-  color: rgb(253, 135, 0);
+  color: #1D469E;
 }
 
 h2:hover {
@@ -236,7 +243,7 @@ header {
 }
 
 i a {
-  color: red;
+  color: #FFE000;
 }
 
 .header_menu {
@@ -264,6 +271,7 @@ main {
   background-position: right;
   background-size: 600px;
   background-attachment: fixed;
+  background-position-y: 60px;
 }
 
 cite {
@@ -330,13 +338,16 @@ footer {
   h2 {
     font-size: 40px;
   }
+  h3 {
+    font-size: 20px;
+  }
   main {
     background-attachment: scroll;
     background-position: top right;
     background-size: 350px;
   }
   .main_section__principal {
-    padding: 300px 50px;
+    padding: 400px 20px 150px;
     display: block;
     text-align: center;
   }
@@ -363,6 +374,9 @@ footer {
   }
   .main_section__central article div img {
     width: 290px;
+  }
+  footer {
+    background-size: auto;
   }
 }
 /* DESK 1366px */
@@ -397,9 +411,6 @@ footer {
 
 /* MOBILE 680px */
 @media (max-width: 680px) {
-  footer {
-    background-size: 200px;
-  }
   .footer_nav {
     display: block;
     margin: 35px auto;

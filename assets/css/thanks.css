@@ -45,6 +45,13 @@ i {
   font-size: 12px;
 }
 
+button {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+}
+
 /* Content */
 /* DESK 1366px */
 header {
@@ -296,9 +303,6 @@ footer {
 
 /* MOBILE 680px */
 @media (max-width: 680px) {
-  footer {
-    background-size: 200px;
-  }
   .footer_nav {
     display: block;
     margin: 35px auto;

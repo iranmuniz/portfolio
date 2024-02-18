@@ -45,6 +45,13 @@ i {
   font-size: 12px;
 }
 
+button {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+}
+
 /* Content */
 /* DESK 1366px */
 header {
@@ -316,6 +323,9 @@ footer {
   h2 {
     font-size: 40px;
   }
+  h3 {
+    font-size: 20px;
+  }
   main {
     background-image: url(/assets/image/background/astro.png);
     background-size: 280px;
@@ -348,6 +358,9 @@ footer {
   }
   .main_section__central article div img {
     width: 290px;
+  }
+  footer {
+    background-size: 200px;
   }
 }
 /* DESK 1366px */
@@ -382,9 +395,6 @@ footer {
 
 /* MOBILE 680px */
 @media (max-width: 680px) {
-  footer {
-    background-size: 200px;
-  }
   .footer_nav {
     display: block;
     margin: 35px auto;

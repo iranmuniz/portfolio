@@ -33,9 +33,12 @@ a {
 span i a {
     color: red;
 }
-
 button{
     background-color: green;
+}
+
+button a{
+    color: white;
 }
 
 button:hover{
@@ -67,10 +70,7 @@ body {
 }
 
 .header_menu__button{
-    padding: 10px;
-    border: none;
-    font-family: unset;
-    font-size: 20px;
+    margin-left: 20px;
 }
 
 main{
@@ -121,8 +121,6 @@ main{
 
 .main_article__button{
     padding: 10px;
-    border: none;
-    font-family: unset;
 }
 
 .main_article__button a{
@@ -160,16 +158,21 @@ footer{
     h2{
         font-size: 40px;
     }
+    h3{
+        font-size: 20px;
+    }
     main{
-        background-image: url(/assets/image/astro.png);
-        background-position: bottom;
-        background-size: 480px;
+        background-size: 800px;
+        background-attachment: scroll;
+        background-position-x: center;
+        background-position-y: -190px;
     }
     .main_section__principal{
         padding: 140px 50px;
         display: block;
         text-align: center;
-        margin-bottom: 330px;
+        margin-bottom: 100px;
+        margin-top: 330px;
     }
 
     .main_section__principal picture img{
@@ -199,6 +202,9 @@ footer{
 
     .main_section__central article div img{
         width: 290px;
+    }
+    footer{
+        background-size: 150px;
     }
     .footer_copyright{
         display: none;

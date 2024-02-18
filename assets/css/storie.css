@@ -45,6 +45,13 @@ i {
   font-size: 12px;
 }
 
+button {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+}
+
 /* Content */
 /* DESK 1366px */
 header {
@@ -209,7 +216,7 @@ h3:hover {
 }
 
 h4 {
-  color: black;
+  color: #ffe000;
 }
 
 a {
@@ -235,6 +242,10 @@ span {
 
 .main_storie_section__color-red {
   background-color: #E31C57;
+}
+
+footer {
+  background-color: deeppink;
 }
 
 /* DESK 1366px */
@@ -353,7 +364,68 @@ body {
   animation-delay: 6s;
 }
 
+.footer_nav {
+  flex-direction: column;
+  width: 350px;
+  text-align: center;
+}
+
 /* MOBILE 680px */
+@media (max-width: 680px) {
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  body {
+    overflow-x: auto;
+    overflow-y: auto;
+    display: block;
+    height: auto;
+    background-color: black;
+  }
+  header {
+    display: block;
+  }
+  footer {
+    background-color: black;
+  }
+  img {
+    width: 280px;
+  }
+  .main_storie {
+    background: none;
+  }
+  .main_storie_section {
+    display: block;
+  }
+  .main_storie_section__in-loco {
+    margin: 350px 0;
+    display: block;
+    text-align: center;
+  }
+  .main_storie_section__in-loco div {
+    width: auto;
+  }
+  .main_storie_section__in-loco__navegation {
+    display: none;
+  }
+  .main_storie_section__in-loco__notice {
+    display: none;
+  }
+  .main_storie_section__block {
+    display: block;
+  }
+  .main_storie_section__block div {
+    width: auto;
+    margin: auto 10px;
+  }
+  .footer_nav {
+    margin: auto 0;
+  }
+}
 /* DESK 1366px */
 .footer_nav {
   align-items: center;
@@ -386,9 +458,6 @@ body {
 
 /* MOBILE 680px */
 @media (max-width: 680px) {
-  footer {
-    background-size: 200px;
-  }
   .footer_nav {
     display: block;
     margin: 35px auto;
