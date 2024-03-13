@@ -204,7 +204,7 @@ h1:hover {
 }
 
 h2 {
-  color: #1D469E;
+  color: rgb(253, 135, 0);
 }
 
 h2:hover {
@@ -220,7 +220,7 @@ h3:hover {
 }
 
 h4 {
-  color: #FFE000;
+  color: lightseagreen;
 }
 
 nav li a:hover {
@@ -254,6 +254,10 @@ i a {
   background-color: gold;
   color: black;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.5);
+}
+
+.footer_contact__social-media li a {
+  color: lightseagreen;
 }
 
 /* DESK 1366px */

@@ -242,6 +242,10 @@ body {
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.5);
 }
 
+.footer_contact__social-media li a {
+  color: rgb(255, 0, 0);
+}
+
 /* DESK 1366px */
 body {
   max-width: 1366px;
