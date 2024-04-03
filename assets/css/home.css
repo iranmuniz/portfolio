@@ -242,7 +242,11 @@ body {
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.5);
 }
 
-.footer_contact__social-media li a {
+.footer_contact__social-media {
+  background-color: #ecf5ff;
+}
+
+.footer_contact__social-media a {
   color: rgb(255, 0, 0);
 }
 
@@ -277,7 +281,6 @@ main {
 
 .main_section__principal picture img {
   border-radius: 999rem;
-  width: 300px;
 }
 
 .main_section__central {
@@ -296,10 +299,6 @@ main {
 
 .main_section__central article div {
   padding: 15px 50px;
-}
-
-.main_section__central article div img {
-  width: 440px;
 }
 
 .main_article__desk {
