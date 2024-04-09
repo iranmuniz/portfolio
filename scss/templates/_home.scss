@@ -51,7 +51,7 @@ body {
 }
 
 .footer_contact__social-media a{
-    color: rgb(255, 0, 0);
+    color: red;
 }
 
 /* DESK 1366px */
@@ -64,7 +64,7 @@ body {
     margin: 0px auto;
 }
 main{
-    background-image: url(/assets/image/background/astro.png);
+    background-image: url(/assets/image/background/astro.webp);
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 600px;
@@ -104,7 +104,7 @@ main{
 }
 
 footer{
-    background-image: url(/assets/image/background/play_bottom.png);
+    background-image: url(/assets/image/background/play_bottom.webp);
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 600px;
@@ -130,7 +130,7 @@ footer{
         font-size: 20px;
     }
     main{
-        background-image: url(/assets/image/background/astro.png);
+        background-image: url(/assets/image/background/astro.webp);
         background-size: 280px;
         background-attachment: scroll;
     }
