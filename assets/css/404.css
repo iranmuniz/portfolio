@@ -224,6 +224,14 @@ a {
   color: black;
 }
 
+.footer_contact__social-media {
+  background-color: rgba(236, 245, 255, 0);
+}
+
+.footer_contact__social-media a {
+  color: rgb(12, 99, 12);
+}
+
 /* DESK 1366px */
 body {
   max-width: 1366px;
@@ -235,7 +243,7 @@ body {
 }
 
 .main_404 {
-  background-image: url(/assets/image/background/sunglass.png);
+  background-image: url(/assets/image/background/sunglass.webp);
   background-repeat: no-repeat;
   background-position: right;
   background-size: 600px;
@@ -251,7 +259,7 @@ body {
 }
 
 footer {
-  background-image: url(/assets/image/background/anime.png);
+  background-image: url(/assets/image/background/anime.webp);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 520px;

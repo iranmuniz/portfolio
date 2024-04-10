@@ -57,6 +57,14 @@ body {
     box-shadow: 0px -2px 20px 20px rgba(68, 88, 144, 0.5);
 }
 
+.footer_contact__social-media {
+    background-color: #ecf5ff00;
+}
+
+.footer_contact__social-media a{
+    color: hotpink;
+}
+
 /* DESK 1366px */
 
 body {
@@ -72,7 +80,7 @@ cite{
 }
 
 main{
-    background-image: url(/assets/image/background/heart_bit.png);
+    background-image: url(/assets/image/background/heart_bit.webp);
     background-repeat: no-repeat;
     background-size: 730px;
     background-attachment: fixed;
@@ -131,7 +139,7 @@ main{
 }
 
 footer{
-    background-image: url(/assets/image/background/jesus_skate.png);
+    background-image: url(/assets/image/background/jesus_skate.webp);
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 400px;
@@ -151,7 +159,7 @@ footer{
         max-width: 680px;
     }
     main{
-        background-image: url(/assets/image/background/heart_bit.png);
+        background-image: url(/assets/image/background/heart_bit.webp);
         background-size: 280px;
         background-position: top right;
         background-attachment: scroll;

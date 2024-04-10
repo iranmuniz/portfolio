@@ -59,7 +59,15 @@ button:hover{
     box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.5);
 }
 
-.footer_contact__social-media li a{
+.footer_contact__social-media {
+    background-color: #ecf5ff00;
+}
+
+.footer_contact__social-media:hover {
+    background-color: #ecf5ff00;
+}
+
+.footer_contact__social-media a{
     color: rgb(132, 0, 255);
 }
 
@@ -78,7 +86,7 @@ body {
 }
 
 main{
-    background-image: url(/assets/image/banner/macbook.jpg);
+    background-image: url(/assets/image/banner/macbook.webp);
     background-repeat: no-repeat;
     background-size: 1200px;
     background-attachment: fixed;
@@ -135,7 +143,7 @@ main{
 }
 
 footer{
-    background-image: url(/assets/image/background/box.png);
+    background-image: url(/assets/image/background/box.webp);
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 400px;
