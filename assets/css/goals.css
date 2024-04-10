@@ -212,7 +212,7 @@ h2:hover {
 }
 
 h3 {
-  color: lightseagreen;
+  color: #1D469E;
 }
 
 h3:hover {
@@ -251,12 +251,16 @@ i a {
 }
 
 .main_section__central {
-  background-color: gold;
+  background-color: #e5c723;
   color: black;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.5);
 }
 
-.footer_contact__social-media li a {
+.footer_contact__social-media {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.footer_contact__social-media a {
   color: lightseagreen;
 }
 
@@ -270,7 +274,7 @@ body {
 }
 
 main {
-  background-image: url(/assets/image/background/project_tennis.png);
+  background-image: url(/assets/image/background/project_tennis.webp);
   background-repeat: no-repeat;
   background-position: right;
   background-size: 600px;
@@ -322,7 +326,7 @@ cite {
 }
 
 footer {
-  background-image: url(/assets/image/background/cyberpunk.png);
+  background-image: url(/assets/image/background/cyberpunk.webp);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 350px;
