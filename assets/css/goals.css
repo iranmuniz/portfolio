@@ -64,6 +64,20 @@ button {
 }
 
 /* Content */
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: red;
+  border-radius: 20px;
+  border: 4px solid rgba(255, 255, 255, 0);
+}
+
 /* DESK 1366px */
 header {
   width: 100%;
