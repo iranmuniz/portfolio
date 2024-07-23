@@ -1,4 +1,8 @@
 /* Global */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
@@ -44,6 +48,10 @@ nav li {
   font-family: "Chakra Petch", sans-serif;
   font-size: 20px;
   list-style: none;
+}
+
+nav li a {
+  text-decoration: none;
 }
 
 p {
@@ -302,10 +310,6 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0px auto;
-}
-
-.header_menu__button {
-  margin-left: 20px;
 }
 
 main {

@@ -1,4 +1,8 @@
 /* Global */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
@@ -44,6 +48,10 @@ nav li {
   font-family: "Chakra Petch", sans-serif;
   font-size: 20px;
   list-style: none;
+}
+
+nav li a {
+  text-decoration: none;
 }
 
 p {
@@ -230,6 +238,7 @@ h1:hover {
 
 h2 {
   color: #FFE000;
+  font-size: 20px;
 }
 
 h2:hover {
@@ -282,15 +291,6 @@ span {
 }
 
 /* DESK 1366px */
-header {
-  display: block !important;
-}
-
-h1 {
-  margin-left: 70px;
-  margin-top: 11px;
-}
-
 picture {
   padding: 0 60px;
 }
@@ -305,8 +305,12 @@ body {
 .main_storie {
   display: flex;
   flex-flow: nowrap;
-  background: linear-gradient(100deg, rgb(0, 0, 0) 0%, rgb(4, 4, 4) 90%, rgb(0, 212, 255) 100%);
+  background-color: black;
   align-items: center;
+  background-image: url(/assets/image/background/astro_boy.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
 }
 
 .main_storie_section {
@@ -338,6 +342,10 @@ body {
 
 .main_storie_section__block div {
   width: 500px;
+}
+
+.last_block {
+  padding-right: 370px;
 }
 
 #container {
@@ -409,9 +417,6 @@ body {
   }
 }
 @media (max-width: 680px) {
-  h1 {
-    display: none;
-  }
   h2 {
     font-size: 40px;
   }
@@ -425,9 +430,6 @@ body {
     display: block;
     height: auto;
     background-color: black;
-  }
-  header {
-    display: block;
   }
   img {
     width: 280px;
@@ -461,6 +463,9 @@ body {
   }
   .main_storie_section__picture img {
     display: none;
+  }
+  .last_block {
+    padding-right: 0px;
   }
   footer {
     background-image: url(/assets/image/background/criative_nino.webp);

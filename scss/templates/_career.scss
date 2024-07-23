@@ -1,10 +1,19 @@
 /* COLORS */
+h1{
+    color: #29EBD4;
+}
+
 h1:hover{
     color: #FFE000;
 }
 
+h2{
+    color: #FFE000;
+}
+
+
 h2:hover {
-    color: rgb(253, 135, 0);
+    color: #29EBD4;
 }
 
 h3:hover {
@@ -12,30 +21,35 @@ h3:hover {
 }
 
 h4{
-    color: red;
-}
-
-nav li a{
-    color: black;
+    color: #29EBD4
 }
 
 nav li a:hover {
-    color: #E31C57;
-}
-span i a {
-    color: red;
+    color: #FFE000;
 }
 
-body {
-    background-color: #ecf5ff;
+p{
+    color: white;
 }
 
-.header_menu{
-    background-color: rgba($color: #fff, $alpha: 0.9);
+cite{
+    color: white;
 }
 
-.header_menu__list li:first-child {
-    color: black;
+a {
+    text-decoration: none;
+}
+
+ul li a{
+    color: white;
+}
+
+i{
+    color: white;
+}
+
+i a {
+    color: rgb(253, 135, 0);
 }
 
 .main_section__central{
@@ -48,13 +62,12 @@ body {
     color: #FFE000;
 }
 
-.footer_contact__social-media {
-    background-color: #ecf5ff;
+.main_article__buttom:hover{
+    color: rgb(253, 135, 0);
 }
 
-.footer_contact__social-media a{
-    color: red;
-    text-decoration: none;
+.footer_contact span{
+    color: white;
 }
 
 /* DESK 1366px */
@@ -65,14 +78,17 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px auto;
+    background-color: #282A36;
 }
-main{
-    background-image: url(/assets/image/background/astro.webp);
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-size: 600px;
-    background-attachment: fixed;
+
+cite{
+    margin-bottom: 15px;
 }
+
+.career_section__image{
+    transform: translateY(-60px);
+}
+
 .main_section__principal {
     display: flex;
     justify-content: space-around;
@@ -107,15 +123,19 @@ main{
 }
 
 footer{
-    background-image: url(/assets/image/background/play_bottom.webp);
+    background-image: url(/assets/image/background/yoda.webp);
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size: 600px;
+    background-size: 255px;
     height: 100%;
 }
 
-.footer_copyright div span i a{
-    text-decoration: none;
+.footer_contact__social-media{
+    background-color: #282A36;
+}
+
+.footer_contact__social-media a{
+    color: #FFE000;
 }
 
 /* MOBILE 680px */
@@ -130,16 +150,8 @@ footer{
     body{
         max-width: 680px;
     }
-    h2{
-        font-size: 40px;
-    }
-    h3{
-        font-size: 20px;
-    }
-    main{
-        background-image: url(/assets/image/background/astro.webp);
-        background-size: 280px;
-        background-attachment: scroll;
+    .main{
+        background-image: none;
     }
     .main_section__principal{
         padding: 300px 50px;
@@ -176,6 +188,6 @@ footer{
         width: 290px;
     }
     footer{
-        background-size: 200px;
+        background-size: 520px;
     }
 }

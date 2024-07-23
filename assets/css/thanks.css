@@ -1,4 +1,8 @@
 /* Global */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
@@ -44,6 +48,10 @@ nav li {
   font-family: "Chakra Petch", sans-serif;
   font-size: 20px;
   list-style: none;
+}
+
+nav li a {
+  text-decoration: none;
 }
 
 p {
@@ -221,7 +229,7 @@ header {
 }
 /* COLORS */
 h1 {
-  color: red;
+  color: #29EBD4;
 }
 
 h1:hover {
@@ -237,7 +245,7 @@ h3:hover {
 }
 
 h4 {
-  color: red;
+  color: #29EBD4;
 }
 
 nav li a:hover {
@@ -246,7 +254,7 @@ nav li a:hover {
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 /* DESK 1366px */
@@ -256,7 +264,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0px auto;
-  background-color: snow;
+  background-color: #282A36;
 }
 
 .main_404 {
