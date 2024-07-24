@@ -64,11 +64,8 @@ i {
   font-size: 12px;
 }
 
-button {
+a {
   font-family: "Chakra Petch", sans-serif;
-  font-size: 20px;
-  border: none;
-  padding: 10px;
 }
 
 /* Content */
@@ -289,11 +286,9 @@ i a {
 }
 
 .footer_contact__social-media {
-  background-color: rgba(255, 255, 255, 0);
-}
-
-.footer_contact__social-media a {
   color: lightseagreen;
+  text-decoration: none;
+  margin-top: 10px;
 }
 
 body {
@@ -352,11 +347,6 @@ cite {
   width: 440px;
 }
 
-.main_article {
-  display: flex;
-  flex-direction: column;
-}
-
 footer {
   background-image: url(/assets/image/background/cyberpunk.webp);
   background-repeat: no-repeat;
@@ -402,6 +392,10 @@ footer {
   }
   .main_section__central article div img {
     width: 290px;
+  }
+  .main_article {
+    display: flex;
+    flex-direction: column;
   }
   .main_article__reverse {
     display: flex;

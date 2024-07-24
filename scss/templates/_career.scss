@@ -115,11 +115,6 @@ cite{
     padding: 15px 50px;
 }
 
-.main_article{
-    display: flex;
-    flex-direction: column;
-}
-
 footer{
     background-image: url(/assets/image/background/yoda.webp);
     background-repeat: no-repeat;
@@ -129,11 +124,9 @@ footer{
 }
 
 .footer_contact__social-media{
-    background-color: #282A36;
-}
-
-.footer_contact__social-media a{
     color: #FFE000;
+    text-decoration: none;
+    margin-top: 10px;
 }
 
 @media (max-width: 680px) {
@@ -169,6 +162,11 @@ footer{
     .main_section__central article div img{
         width: 290px;
     }
+    .main_article{
+        display: flex;
+        flex-direction: column;
+    }
+
     .main_article__reverse{
         display: flex;
         flex-direction: column-reverse;

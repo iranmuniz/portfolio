@@ -1,4 +1,3 @@
-/* COLORS */
 h1{
     color: brown;
 }
@@ -57,15 +56,11 @@ body {
     box-shadow: 0px -2px 20px 20px rgba(68, 88, 144, 0.5);
 }
 
-.footer_contact__social-media {
-    background-color: #ecf5ff00;
-}
-
-.footer_contact__social-media a{
+.footer_contact__social-media{
     color: hotpink;
+    text-decoration: none;
+    margin-top: 10px;
 }
-
-/* DESK 1366px */
 
 body {
     max-width: 1366px;
@@ -145,8 +140,6 @@ footer{
     background-size: 400px;
     height: 100%;
 }
-
-/* MOBILE 680px */
 
 @media (min-width: 680px) {
     .main_article__mobile div{

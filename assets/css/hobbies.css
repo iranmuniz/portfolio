@@ -64,11 +64,8 @@ i {
   font-size: 12px;
 }
 
-button {
+a {
   font-family: "Chakra Petch", sans-serif;
-  font-size: 20px;
-  border: none;
-  padding: 10px;
 }
 
 /* Content */
@@ -227,7 +224,6 @@ header {
     padding: 6px 0;
   }
 }
-/* COLORS */
 h1 {
   color: brown;
 }
@@ -287,14 +283,11 @@ body {
 }
 
 .footer_contact__social-media {
-  background-color: rgba(236, 245, 255, 0);
-}
-
-.footer_contact__social-media a {
   color: hotpink;
+  text-decoration: none;
+  margin-top: 10px;
 }
 
-/* DESK 1366px */
 body {
   max-width: 1366px;
   position: relative;
@@ -380,7 +373,6 @@ footer {
   height: 100%;
 }
 
-/* MOBILE 680px */
 @media (min-width: 680px) {
   .main_article__mobile div {
     display: none;

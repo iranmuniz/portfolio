@@ -59,16 +59,10 @@ button:hover{
     box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.5);
 }
 
-.footer_contact__social-media {
-    background-color: #ecf5ff00;
-}
-
-.footer_contact__social-media:hover {
-    background-color: #ecf5ff00;
-}
-
-.footer_contact__social-media a{
+.footer_contact__social-media{
     color: rgb(132, 0, 255);
+    text-decoration: none;
+    margin-top: 10px;
 }
 
 /* DESK 1366px */

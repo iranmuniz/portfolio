@@ -64,11 +64,8 @@ i {
   font-size: 12px;
 }
 
-button {
+a {
   font-family: "Chakra Petch", sans-serif;
-  font-size: 20px;
-  border: none;
-  padding: 10px;
 }
 
 /* Content */
@@ -282,12 +279,8 @@ span {
   background-color: #E31C57;
 }
 
-.footer_contact__social-media li a {
-  color: rgb(0, 225, 255);
-}
-
 .footer_contact__social-media {
-  background-color: rgba(236, 245, 255, 0);
+  margin-top: 10px;
 }
 
 /* DESK 1366px */
