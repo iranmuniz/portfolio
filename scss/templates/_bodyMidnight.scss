@@ -1,0 +1,57 @@
+// .body_light{
+//     background-color: #ecf5ff;
+// }
+
+.body_light h1:hover{
+    color: rgb(26, 155, 155);
+}
+
+.body_light h2:hover {
+    color: rgb(26, 155, 155);
+}
+
+.body_light h3:hover {
+    color: rgb(26, 155, 155);
+}
+
+.body_light h4{
+    color: red;
+}
+
+.body_light nav li a:hover {
+    color: #000000;
+}
+
+.body_light span i a {
+    color: red;
+}
+
+.body_light .header_menu{
+    background-color: rgba($color: #fff, $alpha: 0.9);
+}
+
+.body_light .header_menu__list li:first-child {
+    color: black;
+}
+
+.body_light .main_section__central{
+    background-color: #282A36;
+    color: white;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.5);
+}
+
+.body_light .main_article__buttom{
+    color: #FFE000;
+}
+
+.body_light .main_article__buttom:hover{
+    color: red;
+}
+
+.body_light .footer_contact__social-media{
+    color: red;
+}
+
+.body_light .footer_contact__social-media:hover{
+    color: rgb(41, 143, 46);
+}

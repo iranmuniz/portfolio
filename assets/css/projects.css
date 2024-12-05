@@ -68,6 +68,97 @@ a {
   font-family: "Chakra Petch", sans-serif;
 }
 
+body {
+  max-width: 1366px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+}
+
+.main_title {
+  margin: 10px 50px;
+  display: flex;
+  justify-content: end;
+}
+
+.main_section__principal {
+  display: flex;
+  justify-content: space-around;
+  padding: 232px 103px;
+}
+
+.main_section__central {
+  padding: 80px;
+  margin: auto 60px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.main_section__central article {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 30px auto;
+  justify-content: center;
+}
+
+.main_section__central article div {
+  padding: 15px 50px;
+}
+
+.main_article__buttom {
+  text-decoration: none;
+}
+
+.main_article__buttom:hover {
+  text-decoration: underline;
+}
+
+.main_section__central article div img {
+  width: 440px;
+}
+
+footer {
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 100%;
+}
+
+.footer_contact__social-media {
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+@media (max-width: 680px) {
+  body {
+    max-width: 680px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .main_section__central {
+    margin: auto 10px;
+    padding: 1px;
+  }
+  .main_article {
+    display: flex;
+    flex-direction: column;
+  }
+  .main_section__central article div {
+    padding: 15px 20px;
+  }
+  .main_section__central article div img {
+    width: 290px;
+  }
+  .main_article__reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
 /* Content */
 body::-webkit-scrollbar {
   width: 5px;
@@ -83,7 +174,6 @@ body::-webkit-scrollbar-thumb {
   border: 4px solid rgba(255, 255, 255, 0);
 }
 
-/* DESK 1366px */
 header {
   width: 100%;
   z-index: 999;
@@ -177,13 +267,9 @@ header {
 }
 
 .change-bg {
-  width: 520px;
-  height: 600px;
+  width: 200px;
+  height: 770px;
   transform: translate(-22%, -14%);
-}
-
-.header_desktop {
-  position: absolute;
 }
 
 .header_mobile {
@@ -210,23 +296,18 @@ header {
   margin-right: auto;
 }
 
-/* MOBILE 680px */
-@media (min-width: 680px) {
-  .header_mobile {
-    display: none;
-  }
-}
 @media (max-width: 680px) {
-  .header_desktop {
-    display: none;
-  }
   .nav li {
     padding: 6px 0;
+  }
+  .change-bg {
+    width: 520px;
+    height: 600px;
   }
 }
 /* COLORS */
 h1 {
-  color: #FFE000;
+  color: #000000;
 }
 
 h1:hover {
@@ -234,7 +315,7 @@ h1:hover {
 }
 
 h2 {
-  color: red;
+  color: black;
 }
 
 h2:hover {
@@ -249,8 +330,12 @@ h4 {
   color: red;
 }
 
+body {
+  background-color: snow;
+}
+
 nav li a:hover {
-  color: #c300ff;
+  color: black;
 }
 
 a {
@@ -294,146 +379,16 @@ button:hover {
   margin-top: 10px;
 }
 
-/* DESK 1366px */
-body {
-  max-width: 1366px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  margin: 0px auto;
+#voltarTopo {
+  position: absolute;
+  width: 70px;
+  border: transparent;
+  background-color: transparent;
 }
 
-main {
-  background-image: url(/assets/image/banner/macbook.webp);
-  background-repeat: no-repeat;
-  background-size: 1200px;
-  background-attachment: fixed;
-  background-position-x: right;
-  background-position-y: -270px;
-}
-
-.main_section__principal {
-  display: flex;
-  padding: 232px 103px;
-}
-
-.main_section__principal div {
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-}
-
-.main_section__principal picture img {
-  border-radius: 999rem;
-  width: 300px;
-}
-
-.main_section__central {
-  padding: 80px;
-  margin: auto 60px;
-  border-radius: 15px;
-  text-align: center;
-}
-
-.main_section__central article {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  margin: 30px auto;
-}
-
-.main_section__central article div {
-  padding: 15px 50px;
-}
-
-.main_section__central article div img {
-  width: 440px;
-}
-
-.main_article__desk {
-  display: block;
-}
-
-.main_article__button {
-  padding: 10px;
-}
-
-.main_article__button a {
-  color: white;
-  font-family: "Chakra Petch", sans-serif;
-  font-size: 20px;
-  list-style: none;
-}
-
-footer {
-  background-image: url(/assets/image/background/box.webp);
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  background-size: 400px;
-  height: 100%;
-}
-
-.footer_nav__menu li a {
-  color: #df6f14;
-}
-
-/* MOBILE 680px */
-@media (min-width: 680px) {
-  .main_article__mobile div {
-    display: none;
-  }
-}
 @media (max-width: 680px) {
-  body {
-    max-width: 680px;
-  }
-  h2 {
-    font-size: 40px;
-  }
-  h3 {
-    font-size: 20px;
-  }
-  main {
-    background-size: 800px;
-    background-attachment: scroll;
-    background-position-x: center;
-    background-position-y: -190px;
-  }
-  .main_section__principal {
-    padding: 140px 50px;
-    display: block;
-    text-align: center;
-    margin-bottom: 100px;
-    margin-top: 330px;
-  }
-  .main_section__principal picture img {
-    width: 240px;
-  }
-  .main_section__principal div {
-    width: auto;
-    margin-bottom: 20px;
-  }
-  .main_section__central {
-    margin: auto 10px;
-    padding: 1px;
-  }
-  .main_section__central article {
-    display: block;
-  }
-  .main_section__central article div {
-    padding: 15px 20px;
-  }
-  .main_article__desk div {
-    display: none;
-  }
-  .main_section__central article div img {
-    width: 290px;
-  }
-  footer {
-    background-size: 150px;
-  }
-  .footer_copyright {
-    display: none;
+  #voltarTopo {
+    transform: translateY(-160px);
   }
 }
 /* DESK 1366px */
@@ -490,6 +445,19 @@ footer {
     padding: 0px 50px;
     margin-bottom: 150px;
     text-align: center;
+  }
+}
+footer {
+  background-image: url(/assets/image/background/box.webp);
+  background-size: 400px;
+}
+
+@media (max-width: 680px) {
+  .main_section__central article {
+    display: block;
+  }
+  footer {
+    background-size: 150px;
   }
 }
 

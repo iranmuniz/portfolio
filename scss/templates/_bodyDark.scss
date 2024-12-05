@@ -1,0 +1,56 @@
+.body_dark{
+    background-color: black;
+    color: white;
+}
+
+.body_dark h1{
+    color: white;
+}
+
+.body_dark h1:hover{
+    color: cyan;
+}
+
+.body_dark h2{
+    color: yellow;
+}
+
+.body_dark h2:hover {
+    color: rgb(253, 135, 0);
+}
+
+.body_dark h3{
+    color: fuchsia;
+}
+
+.body_dark h3:hover {
+    color: rgb(30, 255, 0);
+}
+
+.body_dark nav li a:hover {
+    color: #000000;
+}
+
+.body_dark a {
+    text-decoration: none;
+    color: #FFE000;
+}
+
+.header_menu{
+    background-color: black;
+}
+
+.main_section__places{
+    background-color: white;
+    color: black;
+}
+
+.main_section__entertainment{
+    background-color: black;
+    color: white;
+    box-shadow: 0px -2px 20px 20px rgba(68, 88, 144, 0.5);
+}
+
+.footer_contact__social-media{
+    color: hotpink;
+}

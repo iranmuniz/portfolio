@@ -83,7 +83,6 @@ body::-webkit-scrollbar-thumb {
   border: 4px solid rgba(255, 255, 255, 0);
 }
 
-/* DESK 1366px */
 header {
   width: 100%;
   z-index: 999;
@@ -177,13 +176,9 @@ header {
 }
 
 .change-bg {
-  width: 520px;
-  height: 600px;
+  width: 200px;
+  height: 770px;
   transform: translate(-22%, -14%);
-}
-
-.header_desktop {
-  position: absolute;
 }
 
 .header_mobile {
@@ -210,95 +205,79 @@ header {
   margin-right: auto;
 }
 
-/* MOBILE 680px */
-@media (min-width: 680px) {
-  .header_mobile {
-    display: none;
-  }
-}
 @media (max-width: 680px) {
-  .header_desktop {
-    display: none;
-  }
   .nav li {
     padding: 6px 0;
   }
+  .change-bg {
+    width: 520px;
+    height: 600px;
+  }
 }
-/* COLORS */
-h1 {
-  color: #29EBD4;
+.body_light h1:hover {
+  color: rgb(26, 155, 155);
 }
 
-h1:hover {
+.body_light h2:hover {
+  color: rgb(26, 155, 155);
+}
+
+.body_light h3:hover {
+  color: rgb(26, 155, 155);
+}
+
+.body_light h4 {
+  color: red;
+}
+
+.body_light nav li a:hover {
+  color: #000000;
+}
+
+.body_light span i a {
+  color: red;
+}
+
+.body_light .header_menu {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.body_light .header_menu__list li:first-child {
+  color: black;
+}
+
+.body_light .main_section__central {
+  background-color: #282A36;
+  color: white;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.5);
+}
+
+.body_light .main_article__buttom {
   color: #FFE000;
 }
 
-h2:hover {
-  color: rgb(253, 135, 0);
+.body_light .main_article__buttom:hover {
+  color: red;
 }
 
-h3:hover {
-  color: aqua;
+.body_light .footer_contact__social-media {
+  color: red;
 }
 
-h4 {
-  color: #29EBD4;
+.body_light .footer_contact__social-media:hover {
+  color: rgb(41, 143, 46);
 }
 
-nav li a:hover {
-  color: #E31C57;
+#voltarTopo {
+  position: absolute;
+  width: 70px;
+  border: transparent;
+  background-color: transparent;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
-
-/* DESK 1366px */
-body {
-  max-width: 1366px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  margin: 0px auto;
-  background-color: #282A36;
-}
-
-.main_404 {
-  background-image: url(/assets/image/background/sunglass.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 600px;
-}
-
-.main_404_section {
-  padding: 330px 103px;
-  width: 60%;
-}
-
-.main_404_section div p {
-  margin-top: 50px;
-}
-
-footer {
-  background-image: url(/assets/image/background/anime.png);
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  background-size: 520px;
-  height: 100%;
-}
-
-/* MOBILE 680px */
 @media (max-width: 680px) {
-  body {
-    max-width: 680px;
-  }
-  .main_404 {
-    background-image: none;
-  }
-  .main_404_section {
-    width: auto;
-    padding: 100px;
+  #voltarTopo {
+    transform: translateY(-160px);
   }
 }
 /* DESK 1366px */

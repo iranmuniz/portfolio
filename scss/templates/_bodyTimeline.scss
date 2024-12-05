@@ -1,6 +1,7 @@
 /* COLORS */
 h1{
-    color: #FFE000;
+    color: white;
+    position: fixed;
 }
 
 h1:hover{
@@ -85,7 +86,6 @@ body{
 
 .main_storie_section__in-loco{
     margin-left: 110px;
-    margin-right: 620px;
     display: flex;
     align-items: center;
 }
@@ -179,6 +179,9 @@ body{
 }
 
 @media (max-width: 680px) {
+    h1{
+        position: relative;
+    }
 
     h2{
         font-size: 40px;
@@ -210,7 +213,7 @@ body{
     }
 
     .main_storie_section__in-loco{
-        margin: 350px 0;
+        margin: 180px 0;
         display: block;
         text-align: center;
     }

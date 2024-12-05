@@ -1,0 +1,70 @@
+/* COLORS */
+h1{
+    color: #000000;
+}
+
+h1:hover{
+    color: #c300ff;
+}
+
+h2 {
+    color: black;
+}
+
+h2:hover {
+    color: rgb(51, 255, 0);
+}
+
+h3:hover {
+    color: rgb(51, 255, 0);
+}
+
+h4{
+    color: red;
+}
+
+body{
+    background-color: snow;
+}
+
+nav li a:hover {
+    color: black
+}
+
+a {
+    text-decoration: none;
+}
+span i a {
+    color: red;
+}
+button{
+    background-color: green;
+}
+
+button a{
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(0, 80, 0);
+}
+
+.header_menu{
+    background-color: black;
+    color: white;
+}
+.header_menu__list li a {
+    color: white;
+}
+
+.main_section__central{
+    background-color: #E54857;
+    color: white;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.5);
+}
+
+.footer_contact__social-media{
+    color: rgb(132, 0, 255);
+    text-decoration: none;
+    margin-top: 10px;
+}

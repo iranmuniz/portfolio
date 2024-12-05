@@ -1,9 +1,22 @@
 /* Global */
 @import 'global/reset';
 @import 'global/fonts';
+@import 'global/todo';
 
 /* Content */
 @import 'custom_elements/scrollbar';
 @import 'custom_elements/header';
-@import 'templates/career';
+@import 'templates/bodyMidnight';
+@import 'custom_elements/button_top';
 @import 'custom_elements/footer';  
+
+footer{
+    background-image: url(/assets/image/background/yoda.webp);
+    background-size: 255px;
+}
+
+@media (max-width: 680px) {
+    footer{
+        background-size: 100px;
+    }
+}

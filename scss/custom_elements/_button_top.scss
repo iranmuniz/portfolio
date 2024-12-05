@@ -1,0 +1,12 @@
+#voltarTopo{
+    position: absolute;
+    width: 70px;
+    border: transparent;
+    background-color: transparent;
+}
+
+@media (max-width: 680px) {
+    #voltarTopo{
+        transform: translateY(-160px);
+    }
+}

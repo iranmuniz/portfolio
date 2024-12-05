@@ -1,9 +1,24 @@
 /* Global */
 @import 'global/reset';
 @import 'global/fonts';
+@import 'global/todo';
 
 /* Content */
 @import 'custom_elements/scrollbar';
 @import 'custom_elements/header';
-@import 'templates/projects';
+@import 'templates/bodySnow';
+@import 'custom_elements/button_top';
 @import 'custom_elements/footer';  
+
+footer{
+    background-image: url(/assets/image/background/box.webp);
+    background-size: 400px;
+}
+@media (max-width: 680px) {
+    .main_section__central article{
+        display: block;
+    }
+    footer{
+        background-size: 150px;
+    }
+}

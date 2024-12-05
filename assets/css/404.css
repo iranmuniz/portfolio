@@ -68,6 +68,97 @@ a {
   font-family: "Chakra Petch", sans-serif;
 }
 
+body {
+  max-width: 1366px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+}
+
+.main_title {
+  margin: 10px 50px;
+  display: flex;
+  justify-content: end;
+}
+
+.main_section__principal {
+  display: flex;
+  justify-content: space-around;
+  padding: 232px 103px;
+}
+
+.main_section__central {
+  padding: 80px;
+  margin: auto 60px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.main_section__central article {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 30px auto;
+  justify-content: center;
+}
+
+.main_section__central article div {
+  padding: 15px 50px;
+}
+
+.main_article__buttom {
+  text-decoration: none;
+}
+
+.main_article__buttom:hover {
+  text-decoration: underline;
+}
+
+.main_section__central article div img {
+  width: 440px;
+}
+
+footer {
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 100%;
+}
+
+.footer_contact__social-media {
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+@media (max-width: 680px) {
+  body {
+    max-width: 680px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .main_section__central {
+    margin: auto 10px;
+    padding: 1px;
+  }
+  .main_article {
+    display: flex;
+    flex-direction: column;
+  }
+  .main_section__central article div {
+    padding: 15px 20px;
+  }
+  .main_section__central article div img {
+    width: 290px;
+  }
+  .main_article__reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
 /* Content */
 body::-webkit-scrollbar {
   width: 5px;
@@ -83,7 +174,6 @@ body::-webkit-scrollbar-thumb {
   border: 4px solid rgba(255, 255, 255, 0);
 }
 
-/* DESK 1366px */
 header {
   width: 100%;
   z-index: 999;
@@ -177,13 +267,9 @@ header {
 }
 
 .change-bg {
-  width: 520px;
-  height: 600px;
+  width: 200px;
+  height: 770px;
   transform: translate(-22%, -14%);
-}
-
-.header_desktop {
-  position: absolute;
 }
 
 .header_mobile {
@@ -210,104 +296,99 @@ header {
   margin-right: auto;
 }
 
-/* MOBILE 680px */
-@media (min-width: 680px) {
-  .header_mobile {
-    display: none;
-  }
-}
 @media (max-width: 680px) {
-  .header_desktop {
-    display: none;
-  }
   .nav li {
     padding: 6px 0;
+  }
+  .change-bg {
+    width: 520px;
+    height: 600px;
   }
 }
 /* COLORS */
 h1 {
-  color: red;
+  color: #000000;
 }
 
 h1:hover {
-  color: #FFE000;
+  color: #c300ff;
+}
+
+h2 {
+  color: black;
 }
 
 h2:hover {
-  color: rgb(253, 135, 0);
+  color: rgb(51, 255, 0);
 }
 
 h3:hover {
-  color: aqua;
+  color: rgb(51, 255, 0);
 }
 
 h4 {
   color: red;
 }
 
+body {
+  background-color: snow;
+}
+
 nav li a:hover {
-  color: #E31C57;
+  color: black;
 }
 
 a {
   text-decoration: none;
-  color: black;
+}
+
+span i a {
+  color: red;
+}
+
+button {
+  background-color: green;
+}
+
+button a {
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(0, 80, 0);
+}
+
+.header_menu {
+  background-color: black;
+  color: white;
+}
+
+.header_menu__list li a {
+  color: white;
+}
+
+.main_section__central {
+  background-color: #E54857;
+  color: white;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.5);
 }
 
 .footer_contact__social-media {
-  color: rgb(12, 99, 12);
+  color: rgb(132, 0, 255);
   text-decoration: none;
   margin-top: 10px;
 }
 
-/* DESK 1366px */
-body {
-  max-width: 1366px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  margin: 0px auto;
-  background-color: snow;
+#voltarTopo {
+  position: absolute;
+  width: 70px;
+  border: transparent;
+  background-color: transparent;
 }
 
-.main_404 {
-  background-image: url(/assets/image/background/sunglass.webp);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 600px;
-}
-
-.main_404_section {
-  padding: 330px 103px;
-  width: 60%;
-}
-
-.main_404_section div p {
-  margin-top: 50px;
-}
-
-footer {
-  background-image: url(/assets/image/background/anime.webp);
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  background-size: 520px;
-  height: 100%;
-}
-
-/* MOBILE 680px */
 @media (max-width: 680px) {
-  body {
-    max-width: 680px;
-  }
-  .main_404 {
-    background-image: none;
-  }
-  .main_404_section {
-    width: auto;
-    padding: 100px;
-  }
-  footer {
-    background-size: 200px;
+  #voltarTopo {
+    transform: translateY(-160px);
   }
 }
 /* DESK 1366px */
@@ -364,6 +445,45 @@ footer {
     padding: 0px 50px;
     margin-bottom: 150px;
     text-align: center;
+  }
+}
+.main_404 {
+  background-image: url(/assets/image/background/sunglass.webp);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 600px;
+}
+
+.main_404_section {
+  padding: 330px 103px;
+  width: 60%;
+}
+
+.main_404_section div p {
+  margin-top: 50px;
+}
+
+footer {
+  background-image: url(/assets/image/background/anime.webp);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 520px;
+  height: 100%;
+}
+
+@media (max-width: 680px) {
+  body {
+    max-width: 680px;
+  }
+  .main_404 {
+    background-image: none;
+  }
+  .main_404_section {
+    width: auto;
+    padding: 100px;
+  }
+  footer {
+    background-size: 200px;
   }
 }
 

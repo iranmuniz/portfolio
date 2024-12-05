@@ -1,9 +1,91 @@
 /* Global */
 @import 'global/reset';
 @import 'global/fonts';
+@import 'global/todo';
 
 /* Content */
 @import 'custom_elements/scrollbar';
 @import 'custom_elements/header';
-@import 'templates/hobbies';
+@import 'templates/bodyDark';
+@import 'custom_elements/button_top';
 @import 'custom_elements/footer';  
+
+.main_section__places{
+    padding: 80px;
+    margin: auto 60px;
+    border-radius: 15px;
+    text-align: center;
+}
+.main_section__places article{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 30px auto;
+}
+.main_section__places article div{
+    padding: 15px 50px;
+}
+.main_section__places article div img{
+    width: 280px;
+}
+.main_section__entertainment{
+    padding: 80px;
+    margin: auto 60px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 60px;
+}
+.main_section__entertainment article{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 30px auto;
+}
+.main_section__entertainment article div{
+    padding: 15px 50px;
+}
+footer{
+    background-image: url(/assets/image/background/heart_bit.webp);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 400px;
+    height: 100%;
+}
+@media (max-width: 680px) {
+    body{
+        max-width: 680px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .main_section__places{
+        margin: auto 9px;
+        padding: 20px 0;
+        margin-bottom: 100px;
+    }
+    .main_section__places article{
+        display: block;
+    }
+    .main_section__places article div{
+        padding: 15px 10px;
+    }
+    .main_section__entertainment{
+        margin: auto 9px;
+        padding: 20px 0;
+    }
+    .main_section__entertainment article{
+        display: block;
+    }
+    .main_section__entertainment article div{
+        padding: 15px 10px;
+    }
+    .main_section__entertainment article picture img{
+        width: 130px;
+    }
+    footer{
+        background-size: 150px;
+    }
+}
