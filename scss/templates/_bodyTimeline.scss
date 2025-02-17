@@ -75,10 +75,6 @@ body{
     flex-flow: nowrap;
     background-color: black;
     align-items: center;
-    background-image: url(/assets/image/background/astro_boy.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
 }
 .main_storie_section {
     display: flex;
@@ -111,7 +107,7 @@ body{
 }
 
 .last_block{
-    padding-right: 370px;
+    padding-right: 500px;
 }
 
 #container{
@@ -170,13 +166,15 @@ body{
 
    }
 
-/* MOBILE 680px */
+   footer{
+    background-color: black;
+    background-image: url(/assets/files/bkg--astro_boy.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+   }
 
-@media (min-width: 680px) {
-    footer{
-        display: none;
-    }
-}
+/* MOBILE 680px */
 
 @media (max-width: 680px) {
     h1{
@@ -242,11 +240,16 @@ body{
     }
 
     footer{
-        background-image: url(/assets/image/background/criative_nino.webp);
+        padding-top: 100px;
+        padding-bottom: 250px;
         background-repeat: no-repeat;
         background-position: bottom right;
         background-size: 130px;
         height: 100%;
     }
+    #voltarTopo{
+        display: none;
+    }
+ 
 }
 

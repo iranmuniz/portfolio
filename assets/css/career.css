@@ -158,6 +158,9 @@ footer {
     display: flex;
     flex-direction: column-reverse;
   }
+  .button_float {
+    display: none;
+  }
 }
 /* Content */
 body::-webkit-scrollbar {
@@ -428,7 +431,7 @@ header {
   }
 }
 footer {
-  background-image: url(/assets/image/background/yoda.webp);
+  background-image: url(/assets/files/bkg--yoda.webp);
   background-size: 255px;
 }
 

@@ -438,18 +438,52 @@ span i a {
     text-align: center;
   }
 }
+ul {
+  list-style: none;
+}
+
+ul li {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.main_contact {
+  background-image: url(/assets/files/bkg--lol.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 600px;
+}
+
+.main_contact_section {
+  padding: 330px 103px;
+  width: 60%;
+}
+
+.main_contact_section div p {
+  margin-top: 50px;
+}
+
 footer {
-  background-image: url(/assets/files/bkg--box.webp);
-  background-size: 400px;
+  background-image: url(/assets/files/bkg--nerd.webp);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 320px;
+  height: 100%;
 }
 
 @media (max-width: 680px) {
-  .main_section__central article {
-    display: block;
+  body {
+    max-width: 680px;
+  }
+  .main_contact {
+    background-image: none;
+  }
+  .main_contact_section {
+    width: auto;
+    padding: 100px;
   }
   footer {
-    background-size: 150px;
+    background-size: 200px;
   }
 }
 
-/*# sourceMappingURL=projects.css.map */
+/*# sourceMappingURL=contact.css.map */

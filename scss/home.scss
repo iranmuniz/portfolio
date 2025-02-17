@@ -11,7 +11,7 @@
 @import 'custom_elements/footer';
 
 main{
-    background-image: url(/assets/image/background/astro.webp);
+    background-image: url(/assets/files/bkg--astro.webp);
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 600px;
@@ -26,7 +26,7 @@ main{
     border-radius: 999rem;
 }
 footer{
-    background-image: url(/assets/image/background/play_bottom.webp);
+    background-image: url(/assets/files/bkg--play_bottom.webp);
     background-size: 600px;
 }
 .footer_copyright div span i a{
@@ -34,7 +34,7 @@ footer{
 }
 @media (max-width: 680px) {
     main{
-        background-image: url(/assets/image/background/astro.webp);
+        background-image: url(/assets/files/bkg--astro.webp);
         background-size: 280px;
         background-attachment: scroll;
     }

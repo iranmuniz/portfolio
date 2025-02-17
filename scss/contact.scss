@@ -10,34 +10,42 @@
 @import 'custom_elements/button_top';
 @import 'custom_elements/footer';
 
-.main_404{
-    background-image: url(/assets/files/bkg--sunglass.webp);
+ul{
+    list-style: none;
+}
+
+ul li{
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.main_contact{
+    background-image: url(/assets/files/bkg--lol.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 600px;
 }
-.main_404_section{
+.main_contact_section{
     padding: 330px 103px;
     width: 60%;
 }
-.main_404_section div p{
+.main_contact_section div p{
     margin-top: 50px;
 }
 footer{
-    background-image: url(/assets/files/bkg--anime.webp);
+    background-image: url(/assets/files/bkg--nerd.webp);
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size: 520px;
+    background-size: 320px;
     height: 100%;
 }
 @media (max-width: 680px){
     body{
         max-width: 680px;
     }
-    .main_404{
+    .main_contact{
         background-image: none;
     }
-    .main_404_section{
+    .main_contact_section{
         width: auto;
         padding: 100px;
     }
