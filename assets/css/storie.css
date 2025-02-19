@@ -266,8 +266,6 @@ picture {
 }
 
 body {
-  overflow-x: scroll;
-  overflow-y: hidden;
   display: flex;
   height: 100vh;
 }
@@ -283,26 +281,14 @@ body {
   display: flex;
 }
 
-.main_storie_section__in-loco {
-  margin-left: 110px;
-  display: flex;
-  align-items: center;
-}
-
-.main_storie_section__in-loco div {
-  width: 700px;
-}
-
-.main_storie_section__in-loco__notice {
-  margin-top: 50px;
-}
-
 .main_storie_section__block {
   display: flex;
   flex-flow: nowrap;
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-left: 60px;
+  margin-right: 150px;
 }
 
 .main_storie_section__block div {
@@ -375,14 +361,6 @@ body {
   animation-delay: 6s;
 }
 
-footer {
-  background-color: black;
-  background-image: url(/assets/files/bkg--astro_boy.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
-}
-
 /* MOBILE 680px */
 @media (max-width: 680px) {
   h1 {
@@ -411,22 +389,12 @@ footer {
   .main_storie_section {
     display: block;
   }
-  .main_storie_section__in-loco {
-    margin: 180px 0;
-    display: block;
-    text-align: center;
-  }
-  .main_storie_section__in-loco div {
-    width: auto;
-  }
-  .main_storie_section__in-loco__navegation {
-    display: none;
-  }
-  .main_storie_section__in-loco__notice {
-    display: none;
-  }
   .main_storie_section__block {
     display: block;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .main_storie_section__block div {
     width: auto;
@@ -437,17 +405,6 @@ footer {
   }
   .last_block {
     padding-right: 0px;
-  }
-  footer {
-    padding-top: 100px;
-    padding-bottom: 250px;
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 130px;
-    height: 100%;
-  }
-  #voltarTopo {
-    display: none;
   }
 }
 #voltarTopo {

@@ -47,7 +47,7 @@
    <meta name="web_author" content="Iran Muniz">
    <!-- /Auditoria -->
 </head>
-<body>
+<body class="body_scroll">
   <header class="header_mobile">
     <div id="menu">
       <div id="menu-bar" onclick="menuOnClick()">
@@ -89,10 +89,8 @@
   <div style="margin: 10px 100px; position: absolute;">
     <h1>Iran Muniz.</h1>
   </div>
-  <main class="main_storie">
+  <main class="main_storie" style="overflow-x: scroll;">
     <section class="main_storie_section">
-      <div class="main_storie_section__in-loco">
-      </div>
       <div class="main_storie_section__block">
         <div>
           <h3>Onde tudo começou</h3>
@@ -184,30 +182,28 @@
         <img src="/assets/files/midia--infracommerce.webp" width="650" alt="Imagem de amigos na Infracommerce">
       </picture>
       </div>
+      <div class="main_storie_section__block">
+        <div>
+          <h3>Vem mais aí</h3>
+          <p>Assim que tiver algo novo coloco aqui, no momento peço a você que continui a navegar pelo meu site :D</p>
+          <p>
+            <a href="javascript:history.back()">Voltar a navegação</a>
+          </p>
+        </div>
+      </div>
     </section>
   </main>
-  <footer class="main_storie_section__block last_block">
-    <div>
-      <h3>Vem mais aí</h3>
-      <p>Assim que tiver algo novo coloco aqui, no momento peço a você que continui a navegar pelo meu site :D</p>
-      <p>
-        <a href="javascript:history.back()">Voltar a navegação</a>
-      </p>
-    </div>
-    <button id="voltarTopo">
-      <a href="#" id="subir">
-        <img src="/assets/files/icon--up.png" alt="Volte ao topo">
-      </a>
-      <a class="button_float" href="https://www.linkedin.com/in/iranmuniz/" target="_blank"><img 
-        src="/assets/files/icon--linkedin.png" style="height:64px; position:fixed; bottom: 25px; right: 
-        25px; z-index:99999;" data-selector="img">
-      </a>
-      <a class="button_float" href="https://api.whatsapp.com/send?l=pt&amp;phone=5511999343569" target="_blank"><img 
-        src="/assets/files/icon--whatsapp.png" style="height:64px; position:fixed; bottom: 100px; right: 
-        25px; z-index:99999;" data-selector="img">
-      </a>
-    </button>
-  </footer>
 </body>
 <script async type="text/javascript" src="/assets/js/menu.js"></script>
+<!-- <script sync type="text/javascript" src="/assets/js/scrollLeft.js"></script> -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      const container = document.querySelector(".main_storie");
+      
+      container.addEventListener("wheel", function (event) {
+          event.preventDefault();
+          container.scrollLeft += event.deltaY;
+      });
+  });
+</script>
 </html>
