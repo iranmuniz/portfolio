@@ -1,0 +1,34 @@
+#voltarTopo{
+    position: absolute;
+    width: 70px;
+    border: transparent;
+    background-color: transparent;
+    z-index: 99999;
+}
+
+// .footer_social{
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: space-between;
+//     max-width: 100vw;
+// }
+
+.footer_social__button-left{
+    bottom: 30px; 
+    left: 10px; 
+    z-index:99999;
+    position: fixed;
+    width: 70px;
+    border: transparent;
+    background-color: transparent;
+}
+
+.footer_social__button-right{
+    bottom: 30px; 
+    right: 10px; 
+    z-index:99999;
+    position: fixed;
+    width: 70px;
+    border: transparent;
+    background-color: transparent;
+}

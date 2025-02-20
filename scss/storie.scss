@@ -8,3 +8,15 @@
 @import 'templates/bodyTimeline';
 @import 'custom_elements/button_top';
 @import 'custom_elements/footer';  
+
+h1{
+    position: fixed;
+    top: 10px;
+    right: 60px;
+}
+
+@media (max-width: 680px){
+    h1{
+        position: absolute;
+    }
+}

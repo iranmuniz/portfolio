@@ -62,6 +62,7 @@ footer{
     .main_section__central{
         margin: auto 10px;
         padding: 1px;
+        border-radius: 5px;
     }
     .main_article{
         display: flex;
@@ -69,6 +70,7 @@ footer{
     }
     .main_section__central article div {
         padding: 15px 20px;
+        text-align: left;
     }
     .main_section__central article div img{
         width: 290px;

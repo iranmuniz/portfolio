@@ -8,41 +8,25 @@
 @import 'custom_elements/header';
 @import 'templates/bodyDark';
 @import 'custom_elements/button_top';
+@import 'custom_elements/button_social';
 @import 'custom_elements/footer';  
 
-.main_section__places{
+.main_section{
     padding: 80px;
     margin: auto 60px;
-    border-radius: 15px;
     text-align: center;
 }
-.main_section__places article{
+.main_section article{
     display: flex;
     text-align: center;
     align-items: center;
     margin: 30px auto;
 }
-.main_section__places article div{
+.main_section article div{
     padding: 15px 50px;
 }
-.main_section__places article div img{
+.main_section article div img{
     width: 280px;
-}
-.main_section__entertainment{
-    padding: 80px;
-    margin: auto 60px;
-    border-radius: 15px;
-    text-align: center;
-    margin: 60px;
-}
-.main_section__entertainment article{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    margin: 30px auto;
-}
-.main_section__entertainment article div{
-    padding: 15px 50px;
 }
 footer{
     background-image: url(/assets/files/bkg--heart_bit.webp);
@@ -55,35 +39,28 @@ footer{
     body{
         max-width: 680px;
     }
+    img{
+        display: none;
+    }
     h2{
         font-size: 40px;
     }
     h3{
         font-size: 20px;
     }
-    .main_section__places{
-        margin: auto 9px;
+    .main_section{
+        background-color: white;
+        color: black;
         padding: 20px 0;
-        margin-bottom: 100px;
+        margin: 50px 9px;
+        border-radius: 5px;
     }
-    .main_section__places article{
+    .main_section article{
         display: block;
     }
-    .main_section__places article div{
+    .main_section article div{
         padding: 15px 10px;
-    }
-    .main_section__entertainment{
-        margin: auto 9px;
-        padding: 20px 0;
-    }
-    .main_section__entertainment article{
-        display: block;
-    }
-    .main_section__entertainment article div{
-        padding: 15px 10px;
-    }
-    .main_section__entertainment article picture img{
-        width: 130px;
+        text-align: left;
     }
     footer{
         background-size: 150px;

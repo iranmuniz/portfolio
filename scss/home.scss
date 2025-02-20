@@ -8,6 +8,7 @@
 @import 'custom_elements/header';
 @import 'templates/bodyCiano';
 @import 'custom_elements/button_top';
+@import 'custom_elements/button_social';
 @import 'custom_elements/footer';
 
 main{
@@ -32,6 +33,13 @@ footer{
 .footer_copyright div span i a{
     text-decoration: none;
 }
+
+@media (min-width: 1380px) {
+    main{
+        background-position: 1000px;
+    }
+}
+
 @media (max-width: 680px) {
     main{
         background-image: url(/assets/files/bkg--astro.webp);

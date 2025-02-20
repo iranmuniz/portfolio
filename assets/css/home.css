@@ -143,6 +143,7 @@ footer {
   .main_section__central {
     margin: auto 10px;
     padding: 1px;
+    border-radius: 5px;
   }
   .main_article {
     display: flex;
@@ -150,6 +151,7 @@ footer {
   }
   .main_section__central article div {
     padding: 15px 20px;
+    text-align: left;
   }
   .main_section__central article div img {
     width: 290px;
@@ -378,6 +380,34 @@ header {
     transform: translateY(-160px);
   }
 }
+#voltarTopo {
+  position: absolute;
+  width: 70px;
+  border: transparent;
+  background-color: transparent;
+  z-index: 99999;
+}
+
+.footer_social__button-left {
+  bottom: 30px;
+  left: 10px;
+  z-index: 99999;
+  position: fixed;
+  width: 70px;
+  border: transparent;
+  background-color: transparent;
+}
+
+.footer_social__button-right {
+  bottom: 30px;
+  right: 10px;
+  z-index: 99999;
+  position: fixed;
+  width: 70px;
+  border: transparent;
+  background-color: transparent;
+}
+
 /* DESK 1366px */
 .footer_nav {
   align-items: center;
@@ -461,6 +491,11 @@ footer {
   text-decoration: none;
 }
 
+@media (min-width: 1380px) {
+  main {
+    background-position: 1000px;
+  }
+}
 @media (max-width: 680px) {
   main {
     background-image: url(/assets/files/bkg--astro.webp);
