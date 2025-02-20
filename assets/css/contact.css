@@ -492,7 +492,6 @@ footer {
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 320px;
-  height: 100%;
 }
 
 @media (max-width: 680px) {
@@ -504,10 +503,10 @@ footer {
   }
   .main_contact_section {
     width: auto;
-    padding: 100px;
+    padding: 70px;
   }
   footer {
-    background-size: 200px;
+    background-size: 135px;
   }
 }
 
