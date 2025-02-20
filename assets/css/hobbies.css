@@ -85,13 +85,14 @@ body {
 .main_section__principal {
   display: flex;
   justify-content: space-around;
-  padding: 232px 103px;
+  padding: 160px 103px;
+  margin-bottom: 50px;
 }
 
 .main_section__central {
   padding: 80px;
   margin: auto 60px;
-  border-radius: 15px;
+  border-radius: 5px;
   text-align: center;
 }
 

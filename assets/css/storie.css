@@ -481,6 +481,15 @@ h1 {
   right: 60px;
 }
 
+::-webkit-scrollbar {
+  height: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: red;
+  border-radius: 3px;
+}
+
 @media (max-width: 680px) {
   h1 {
     position: absolute;
