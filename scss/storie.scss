@@ -3,28 +3,8 @@
 @import 'global/fonts';
 
 /* Content */
-// @import 'custom_elements/scrollbar';
+@import 'custom_elements/scrollbar';
 @import 'custom_elements/header';
 @import 'templates/bodyTimeline';
 @import 'custom_elements/button_top';
-@import 'custom_elements/footer';  
-
-h1{
-    position: fixed;
-    top: 10px;
-    right: 60px;
-}
-
-::-webkit-scrollbar {
-    height: 3px;
-}
-::-webkit-scrollbar-thumb {
-    background-color: red; 
-    border-radius: 3px;
-}
-
-@media (max-width: 680px){
-    h1{
-        position: absolute;
-    }
-}
+@import 'custom_elements/footer';

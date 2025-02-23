@@ -69,6 +69,19 @@ a {
 }
 
 /* Content */
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar {
+  height: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: red;
+  border-radius: 3px;
+}
+
 header {
   width: 100%;
   z-index: 999;
@@ -261,6 +274,12 @@ span {
 }
 
 /* DESK 1366px */
+h1 {
+  position: fixed;
+  top: 10px;
+  right: 60px;
+}
+
 picture {
   padding: 0 60px;
 }
@@ -364,7 +383,7 @@ body {
 /* MOBILE 680px */
 @media (max-width: 680px) {
   h1 {
-    position: relative;
+    position: absolute;
   }
   h2 {
     font-size: 40px;
@@ -380,8 +399,14 @@ body {
     height: auto;
     background-color: black;
   }
+  header {
+    display: none;
+  }
+  picture {
+    padding: 0;
+  }
   img {
-    width: 280px;
+    width: 100vw;
   }
   .main_storie {
     background: none;
@@ -395,16 +420,17 @@ body {
     margin-bottom: 100px;
     margin-left: 0px;
     margin-right: 0px;
+    text-align: left;
   }
   .main_storie_section__block div {
     width: auto;
     margin: auto 10px;
   }
-  .main_storie_section__picture img {
-    display: none;
-  }
   .last_block {
     padding-right: 0px;
+  }
+  .image_bkg {
+    display: none;
   }
 }
 #voltarTopo {
@@ -473,26 +499,6 @@ body {
     padding: 0px 50px;
     margin-bottom: 150px;
     text-align: center;
-  }
-}
-h1 {
-  position: fixed;
-  top: 10px;
-  right: 60px;
-}
-
-::-webkit-scrollbar {
-  height: 3px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: red;
-  border-radius: 3px;
-}
-
-@media (max-width: 680px) {
-  h1 {
-    position: absolute;
   }
 }
 

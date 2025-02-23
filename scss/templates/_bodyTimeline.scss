@@ -58,14 +58,17 @@ span{
 }
 
 /* DESK 1366px */
+h1{
+    position: fixed;
+    top: 10px;
+    right: 60px;
+}
 
 picture{
     padding: 0 60px;
 }
 
 body{
-    // overflow-x: scroll;
-    // overflow-y: hidden;
     display: flex;
     height: 100vh;
 }
@@ -158,18 +161,15 @@ body{
 
 @media (max-width: 680px) {
     h1{
-        position: relative;
+        position: absolute;
     }
-
     h2{
         font-size: 40px;
     }
-
     h3{
         font-size: 20px;
         margin-top: 30px;
     }
-
     body{
         overflow-x: auto;
         overflow-y: auto;
@@ -177,15 +177,18 @@ body{
         height: auto;
         background-color: black;
     }
-
-    img{
-        width: 280px;
+    header{
+        display: none;
     }
-
+    picture{
+        padding: 0;
+    }
+    img{
+        width: 100vw;
+    }
     .main_storie{
         background: none;
     }
-
     .main_storie_section{
         display: block;
     }
@@ -195,18 +198,17 @@ body{
         margin-bottom: 100px;
         margin-left: 0px;
         margin-right: 0px;
+        text-align: left;
     }
     .main_storie_section__block div{
         width: auto;
         margin: auto 10px;
     }
-    .main_storie_section__picture img{
-        display: none;
-    }
-
     .last_block{
         padding-right: 0px;
     }
- 
+    .image_bkg{
+        display: none;
+    }
 }
 
