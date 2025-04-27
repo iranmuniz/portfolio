@@ -487,10 +487,10 @@ ul li {
 }
 
 footer {
-  background-image: url(/assets/files/bkg--nerd.webp);
+  background-image: url(/assets/files/bkg--box.webp);
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-size: 320px;
+  background-size: 420px;
 }
 
 @media (max-width: 680px) {
